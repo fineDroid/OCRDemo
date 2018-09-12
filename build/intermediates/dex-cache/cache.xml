@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhangchengju/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.70.android/133e74249176e8f5a5cd976bbfa491ac4f8b0c4e/fastjson-1.1.70.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="133e74249176e8f5a5cd976bbfa491ac4f8b0c4e">
+        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/fastjson-1.1.70.android_16f56d6e0dede5876e5ef03722e8a9fef5ff4b70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/ocr_ui/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99cb47030393f8c868bc59223661f6e7d0cb4b0a">
+        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_e1944b4226bfff76e3e221071fc26b352c2c4a9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/libs/ocr-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2e3655d51d5e2200f1d703f9631e7a22d51d136">
+        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/ocr-sdk_c758c864b1155933e049e35615174ff46a9e814d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/ocr_ui/build/intermediates/bundles/default/libs/license.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eca3cb381d01815bb3cec10d215f5d6ba1b2308d">
+        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/license_17828ef2ad2b79e51c14349fd433484977b16a0a.jar" />
+    </item>
+
+</items>
