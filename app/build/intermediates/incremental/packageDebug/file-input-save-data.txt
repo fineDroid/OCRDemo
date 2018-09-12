@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 12 10:56:41 CST 2018
+#Wed Sep 12 11:26:44 CST 2018
 20.base=/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/res/resources-debug.ap_
 439.set=ANDROID_RESOURCE

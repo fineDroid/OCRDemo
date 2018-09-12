@@ -13,7 +13,965 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e4a0981-11e7-474f-a279-eaad7e66888e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ocr_ui/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/notification/SignalNotiHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/notification/SignalNotiHelper.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils$MemoryUnit.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils$MemoryUnit.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils$TimeUnit.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils$TimeUnit.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConstUtils.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConvertUtils$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConvertUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConvertUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/ConvertUtils.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/FileUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/baidu/ocr/demo/util/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_e1944b4226bfff76e3e221071fc26b352c2c4a9e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_e1944b4226bfff76e3e221071fc26b352c2c4a9e.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5d30562929d5d0d36085c7d41bb23989ccbf2a1b.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5d30562929d5d0d36085c7d41bb23989ccbf2a1b.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/license_17828ef2ad2b79e51c14349fd433484977b16a0a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/license_17828ef2ad2b79e51c14349fd433484977b16a0a.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ocr-sdk_c758c864b1155933e049e35615174ff46a9e814d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ocr-sdk_c758c864b1155933e049e35615174ff46a9e814d.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/buildConfig/release/com/baidu/ocr/ui/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/compat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/coreui/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/coreutils/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/fragment/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/graphics/drawable/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/graphics/drawable/animated/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/mediacompat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/v4/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/generated/source/r/release/com/baidu/ocr/ui/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/annotations/debug/annotations.zip" afterPath="$PROJECT_DIR$/ocr_ui/build/intermediates/annotations/debug/annotations.zip" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/annotations/release/annotations.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-af.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-am.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ar.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-az-rAZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-b+sr+Latn.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-be-rBY.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-bg.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-bn-rBD.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-bs-rBA.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ca.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-cs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-da.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-de.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-el.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-en-rAU.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-en-rGB.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-en-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-es-rUS.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-es.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-et-rEE.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-eu-rES.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-fa.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-fi.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-fr-rCA.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-fr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-gl-rES.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-gu-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-h720dp-v13.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-hdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-hi.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-hr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-hu.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-hy-rAM.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-in.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-is-rIS.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-it.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-iw.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ja.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ka-rGE.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-kk-rKZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-km-rKH.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-kn-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ko.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ky-rKG.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-land.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-large-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ldltr-v21.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-lo-rLA.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-lt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-lv.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-mk-rMK.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ml-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-mn-rMN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-mr-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ms-rMY.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-my-rMM.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-nb.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ne-rNP.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-night-v8.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-nl.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-pa-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-pl.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-port.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-pt-rBR.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-pt-rPT.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-pt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ro.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-si-rLK.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sk.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sl.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sq-rAL.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sv.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sw.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-sw600dp-v13.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ta-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-te-rIN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-th.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-tl.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-tr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-uk.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-ur-rPK.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-uz-rUZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v12.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v13.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v16.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v18.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v21.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v22.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v23.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v24.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-v25.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-vi.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-xlarge-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-zh-rCN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-zh-rHK.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-zh-rTW.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values-zu.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/multi/values.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/anim.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/color-v11.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/color-v23.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/color.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-ldrtl-hdpi-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-ldrtl-mdpi-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-ldrtl-xhdpi-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-v21.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-v23.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable-xxxhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/drawable.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/layout-v11.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/layout-v16.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/layout-v21.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/layout.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/mipmap-hdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/mipmap-mdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/mipmap-xhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/mipmap-xxhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/blame/res/release/single/mipmap-xxxhdpi-v4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/R.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/assets/models/integrity_model_secret.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/assets/models/quality_model_secret.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/arm64-v8a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/arm64-v8a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/armeabi-v7a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/armeabi-v7a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/armeabi/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/armeabi/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/x86/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/jni/x86/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/libs/license.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_cancel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_confirm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_gallery.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_hint_align_bank_card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_hint_align_id_card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_hint_align_id_card_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_id_card_locator_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_id_card_locator_front.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_light_off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_light_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_passport_locator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_reset.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_rotate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_round_corner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_take_photo_highlight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_take_photo_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/drawable-xhdpi-v4/bd_ocr_take_photo_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/layout/bd_ocr_activity_camera.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/layout/bd_ocr_confirm_result.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/layout/bd_ocr_crop.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/layout/bd_ocr_take_picture.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/mipmap-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/mipmap-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/mipmap-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/mipmap-xxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/mipmap-xxxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/bundles/default/res/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/compat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/coreui/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/coreutils/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/fragment/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/graphics/drawable/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/graphics/drawable/animated/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/mediacompat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v4/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/android/support/v7/appcompat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/idcardquality/IDcardQualityProcess.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control$PreviewView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera1Control.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/Camera2Control.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$11.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$13.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$6$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$7$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraNativeHelper$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraNativeHelper$CameraNativeInitCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraNativeHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraThreadPool$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraThreadPool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$CameraViewTakePictureCallback$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$CameraViewTakePictureCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$OnTakePictureCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView$Orientation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/CameraView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/ICameraControl$FlashMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/ICameraControl$OnDetectPictureCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/ICameraControl$OnTakePictureCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/ICameraControl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/MaskView$MaskType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/MaskView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/OCRCameraLayout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/OCRFrameLayout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/camera/PermissionCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/CropView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/CropView$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/CropView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/FrameOverlayView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/FrameOverlayView$OnFrameChangeListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/crop/FrameOverlayView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/util/DimensionUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/classes/release/com/baidu/ocr/ui/util/ImageUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental-safeguard/release/tag.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-az-rAZ/values-az-rAZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be-rBY/values-be-rBY.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn-rBD/values-bn-rBD.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bs-rBA/values-bs-rBA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-et-rEE/values-et-rEE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu-rES/values-eu-rES.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gl-rES/values-gl-rES.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu-rIN/values-gu-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hy-rAM/values-hy-rAM.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-is-rIS/values-is-rIS.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ka-rGE/values-ka-rGE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-km-rKH/values-km-rKH.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kn-rIN/values-kn-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ky-rKG/values-ky-rKG.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lo-rLA/values-lo-rLA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk-rMK/values-mk-rMK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ml-rIN/values-ml-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mn-rMN/values-mn-rMN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mr-rIN/values-mr-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ms-rMY/values-ms-rMY.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-my-rMM/values-my-rMM.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne-rNP/values-ne-rNP.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pa-rIN/values-pa-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-si-rLK/values-si-rLK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sq-rAL/values-sq-rAL.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ta-rIN/values-ta-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-te-rIN/values-te-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur-rPK/values-ur-rPK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/arm64-v8a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/arm64-v8a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/armeabi-v7a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/armeabi-v7a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/armeabi/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/armeabi/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/x86/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/jniLibs/release/x86/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_fade_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_fade_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_popup_enter.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_popup_exit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_search_url_text.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_edittext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_spinner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_switch_thumb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-v23/abc_control_background_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_cancel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_confirm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_gallery.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_hint_align_bank_card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_hint_align_id_card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_hint_align_id_card_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_id_card_locator_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_id_card_locator_front.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_light_off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_light_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_passport_locator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_reset.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_rotate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_round_corner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_take_photo_highlight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_take_photo_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/bd_ocr_take_photo_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/abc_vector_test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/notification_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/notification_bg_low.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/notification_icon_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_media_action.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_media_cancel_action.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_custom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow_custom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v16/notification_template_custom_big.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v21/notification_action.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_screen_simple.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_search_view.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/bd_ocr_activity_camera.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/bd_ocr_confirm_result.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/bd_ocr_crop.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/bd_ocr_take_picture.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_action.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_custom_big.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_media.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/notification_template_part_time.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/mipmap-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/mipmap-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/mipmap-xxxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-af/values-af.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-am/values-am.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ar/values-ar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-az-rAZ/values-az-rAZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-be-rBY/values-be-rBY.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-bg/values-bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-bn-rBD/values-bn-rBD.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-bs-rBA/values-bs-rBA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ca/values-ca.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-da/values-da.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-el/values-el.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-es/values-es.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-et-rEE/values-et-rEE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-eu-rES/values-eu-rES.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-fa/values-fa.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-fi/values-fi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-gl-rES/values-gl-rES.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-gu-rIN/values-gu-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-hi/values-hi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-hr/values-hr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-hu/values-hu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-hy-rAM/values-hy-rAM.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-in/values-in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-is-rIS/values-is-rIS.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-iw/values-iw.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ja/values-ja.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ka-rGE/values-ka-rGE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-kk-rKZ/values-kk-rKZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-km-rKH/values-km-rKH.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-kn-rIN/values-kn-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ky-rKG/values-ky-rKG.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-land/values-land.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-lo-rLA/values-lo-rLA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-lt/values-lt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-lv/values-lv.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-mk-rMK/values-mk-rMK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ml-rIN/values-ml-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-mn-rMN/values-mn-rMN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-mr-rIN/values-mr-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ms-rMY/values-ms-rMY.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-my-rMM/values-my-rMM.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-nb/values-nb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ne-rNP/values-ne-rNP.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-nl/values-nl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-pa-rIN/values-pa-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-port/values-port.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-pt/values-pt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ro/values-ro.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ru/values-ru.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-si-rLK/values-si-rLK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sk/values-sk.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sl/values-sl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sq-rAL/values-sq-rAL.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sr/values-sr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sv/values-sv.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sw/values-sw.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ta-rIN/values-ta-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-te-rIN/values-te-rIN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-th/values-th.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-tl/values-tl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-tr/values-tr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-uk/values-uk.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-ur-rPK/values-ur-rPK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-uz-rUZ/values-uz-rUZ.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v12/values-v12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v13/values-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v14/values-v14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v16/values-v16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v17/values-v17.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v18/values-v18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v21/values-v21.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v22/values-v22.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v23/values-v23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v24/values-v24.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-v25/values-v25.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-vi/values-vi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values-zu/values-zu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libidcard_quality.1.1.1.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libidl_license.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/outputs/aar/ocr_ui-debug.aar" afterPath="$PROJECT_DIR$/ocr_ui/build/outputs/aar/ocr_ui-debug.aar" />
+      <change beforePath="$PROJECT_DIR$/ocr_ui/build/outputs/aar/ocr_ui-release.aar" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,18 +1004,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="OCRDemo" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name=":ocr_ui" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="OCRDemo" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name=":ocr_ui" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="OCRDemo" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name=":ocr_ui" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -69,48 +1027,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ConstUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConstUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConvertUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConvertUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignalProcessManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalProcessManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -3040,7 +3957,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="708" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3058,8 +3975,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3076,8 +3991,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3106,10 +4023,11 @@
       <recent name="com.baidu.ocr.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/ocr_ui" />
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo" />
-      <recent name="$PROJECT_DIR$/app/src/main/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3124,7 +4042,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OCRDemo:app [assembleDebug]">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -3400,29 +4318,27 @@
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5176152" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16949153" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1338983" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25762713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.50715744" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5176152" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41694915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21525423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41694915" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48474577" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4220339" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.48238483" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14237288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1338983" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.49284253" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.50715744" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25762713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3430,6 +4346,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14237288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3442,33 +4360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/res/layout/bd_ocr_take_picture.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/res/layout/bd_ocr_activity_camera.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/MaskView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/crop/CropView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -3503,7 +4394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3511,7 +4401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3629,7 +4518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3674,7 +4562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="138" column="27" lean-forward="false" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3706,7 +4593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3714,10 +4600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <marker date="1536721000851" expanded="true" signature="165103:165114" ph="{...}" />
-            <marker date="1536721000851" expanded="true" signature="165155:432796" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3725,7 +4607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="1292" column="23" lean-forward="false" selection-start-line="1292" selection-start-column="23" selection-end-line="1292" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3733,9 +4614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1059">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3767,7 +4645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3842,6 +4719,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalProcessManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -3850,10 +4743,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalProcessManager.java">
+    <entry file="file://$PROJECT_DIR$/ocr_ui/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
