@@ -3,138 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/f783718af7ff4af0c5e23392e45a7c79cfaf998d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_aa08abbee66d914975c8c473f79231eebb20c49c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/e73ada8e34bf327370d1d1ecb7653401e309e0d7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_fbec7232d47cc09f8af0cedd77f8be9f7725896e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.70.android/133e74249176e8f5a5cd976bbfa491ac4f8b0c4e/fastjson-1.1.70.android.jar"
+        jar="/Users/longxian/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.70.android/133e74249176e8f5a5cd976bbfa491ac4f8b0c4e/fastjson-1.1.70.android.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="133e74249176e8f5a5cd976bbfa491ac4f8b0c4e">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/fastjson-1.1.70.android_16f56d6e0dede5876e5ef03722e8a9fef5ff4b70.jar" />
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/fastjson-1.1.70.android_1229e21162469aea6491b110029bc2c5f64dbbe2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/e4b068ef7ee06a906bbe10da55244fb9de40958a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_feb7ca12cf92faaab3825a95a80a7f95f1c56229.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/2bdb1c40d61a1828ac351d8dcb9a4d8e4f4fd76d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_ba26689ffe2661a37af296ec48a8f915dba184cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/ocr_ui/build/intermediates/bundles/default/libs/license.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eca3cb381d01815bb3cec10d215f5d6ba1b2308d">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/license_17828ef2ad2b79e51c14349fd433484977b16a0a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/494fbfaafb2f223b9e090684a7efd7d12fc76b02/output/jars/classes.jar"
+        jar="/Users/longxian/.android/build-cache/f4101072772714dcf1d317c5aba0c2163398bc61/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_bacf58531d230a28755212a6143324d7a8b2dba8.jar" />
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_fa81b9709be6525b453543ae220607d39090f116.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhangchengju/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_13427b1ba4bf85dd9296fe0861e482ba24de37a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/4ede5834a4fe093c5076fc9d4641b9f363ec3c1a/output/jars/classes.jar"
+        jar="/Users/longxian/.android/build-cache/15a56ccc1596b7812e647c67cdde10422e03c535/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_8970f24e7eb3aa37ff8f1346a59b538a8500d6bb.jar" />
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_e3bf414dfffe19cf6f7a7ca4a4cf9e19689e88d0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/a224447ea9e6f072fcab797a71bab795ab2915af/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_f4f40208e057d17ecd84801a2525d6e700623fca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/b2354cd687a48868f41e27d1957fd97992a4bb76/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_cc23756be293b165af801f6fb9a9ef51bb2e7a5c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/.android/build-cache/abb3bd7a15813650ef8066fce7e14640b67831fe/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_2ccd091c3b29eb480a0847c47a68a505bb51d6c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/Documents/sdk/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_5132f673fa2c23672296b8cd6e4dfb7a0c5bb54f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/ocr_ui/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="71d1f45549433e34ba7df822c27bd939485f208f">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_e1944b4226bfff76e3e221071fc26b352c2c4a9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/libs/ocr-sdk.jar"
+        jar="/Users/longxian/Documents/Project/OCRDemo/app/libs/ocr-sdk.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a2e3655d51d5e2200f1d703f9631e7a22d51d136">
-        <dex dex="/Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/app/build/intermediates/pre-dexed/debug/ocr-sdk_c758c864b1155933e049e35615174ff46a9e814d.jar" />
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/ocr-sdk_d0500f3ae9130b9d5232c1271f2bdddea949c477.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/476968d2caf6e5eee3c9b95d826abd7663148d7d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_54d8f113a9ed7c13f496d8494d832e08ecf71bb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/4268e22574d0430f346177bb159ee434f3b48c63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_2cde0a1fef0a019e639bb717fe7148f4a082e1da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/Documents/Project/OCRDemo/ocr_ui/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1dfbf2da638724fa622c14a7debd1c19bc8589a8">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_7bb0e3b3b2d5e4406806787cf65a8f25c9f49f8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/340d49125946cc29f6b7954a453bbc250c3982d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_9b7a7afaed57ce4c1f0c71bcc0bbd26122fb4014.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/7e02e44266cef7627b49d60796f1ebd62f91d911/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_94c6cb04d3e286d98cf4d33f7034d65af1e1755d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_fbd6df33f110a9d7b471cf05441e0891869b2d79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/48ce6b089dfbc9665a71e9982c3b2976af95c142/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_dcac4ed85de091af6ab810acc2d12fdd18ea04bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/Documents/Project/OCRDemo/ocr_ui/build/intermediates/bundles/default/libs/license.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eca3cb381d01815bb3cec10d215f5d6ba1b2308d">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/license_32ceb082969caf5dd982cc44e59b68ca5f75b98a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_6a0ef6b8806e13cba9f35af359d6b46a67ad6656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/fee1709e47d100b2e687028c45546d9af0c0c68c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_cdb6273bcdb0b56e3543360a11d7a4d045d434ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/longxian/.android/build-cache/c74d05a262d378a4a65f5783d9bd88be546b7bad/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/longxian/Documents/Project/OCRDemo/app/build/intermediates/pre-dexed/debug/classes_07c4a41fbf87d03af445451b9315f3b09ad2ebfa.jar" />
     </item>
 
 </items>

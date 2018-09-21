@@ -5,15 +5,8 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="SignalProcessManager" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
-    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e4a0981-11e7-474f-a279-eaad7e66888e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/CameraConfirmEvent.java" />
+    <list default="true" id="f354ff58-389f-405f-a83b-e0c4e35ff4d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
@@ -27,18 +20,138 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhangchengju.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars____Users_zhangchengju_Downloads_aip_ocr_android_sdk_1_4_3_OCRDemo_app_libs_ocr_sdk_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars____Users_zhangchengju_Downloads_aip_ocr_android_sdk_1_4_3_OCRDemo_ocr_ui_libs_license_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_1_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_1_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_0_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_0_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MessageManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/RecognizeService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/RecognizeService.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java" />
+      <change beforePath="$PROJECT_DIR$/OCRDemo.iml" afterPath="$PROJECT_DIR$/OCRDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-09-33-01-106.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-09-34-05-619.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-14-44-28-698.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-14-54-43-916.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-00-25-926.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-02-54-526.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-02-57-739.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-08-45-977.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-10-53-167.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-10-57-650.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-16-13-592.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-16-24-840.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-16-43-410.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-20-57-648.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-21-01-868.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-21-56-317.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-06-15-22-27-119.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-07-17-03-03-589.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-07-17-21-09-152.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-07-17-26-27-196.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-07-17-40-12-885.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-09-41-15-803.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-09-41-20-592.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-34-11-596.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-40-23-969.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-45-47-977.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-48-53-297.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-53-45-023.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-12-56-58-979.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-14-43-40-888.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-10-15-58-38-373.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-09-21-17-007.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-09-21-28-844.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-09-45-01-684.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-13-09-521.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-13-16-693.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-13-35-397.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-13-39-110.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-14-11-874.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-14-16-260.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-14-19-856.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-14-34-164.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-18-59-690.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-19-03-814.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-19-22-487.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-19-30-213.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-47-45-141.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-50-15-984.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-50-18-678.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-10-56-37-374.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-02-11-293.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-02-34-335.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-02-37-354.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-03-08-631.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-27-22-089.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-30-46-477.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-30-50-526.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-38-52-834.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-39-01-683.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-42-12-203.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-11-42-15-180.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-16-29-42-965.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-05-11-966.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-05-18-420.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-05-41-060.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-05-45-586.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-17-48-779.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-17-59-06-168.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-00-14-823.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-02-08-948.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-02-58-319.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-03-26-387.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-10-26-631.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-11-18-24-59-920.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-09-35-15-522.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-09-56-23-818.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-09-58-37-809.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-02-02-627.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-02-07-418.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-04-13-562.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-35-59-449.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-38-09-253.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-53-30-518.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-55-39-516.rawproto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-09-12-10-56-38-748.rawproto" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change beforePath="$PROJECT_DIR$/ocr_ui/build.gradle" afterPath="$PROJECT_DIR$/ocr_ui/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/api-versions-9-28.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-de.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-en.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-es.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-hu.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-it.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-nb.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-pt.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-tr.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change beforePath="$PROJECT_DIR$/ocr_ui/ocr_ui.iml" afterPath="$PROJECT_DIR$/ocr_ui/ocr_ui.iml" />
       <change beforePath="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java" afterPath="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java" />
     </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +173,30 @@
         <task path="$PROJECT_DIR$/ocr_ui">
           <activation />
         </task>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="OCRDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="OCRDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="OCRDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="OCRDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -78,119 +206,57 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CameraActivity.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CameraActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="325" column="21" lean-forward="true" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
+            <state relative-caret-position="274">
+              <caret line="242" column="26" lean-forward="false" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
               <folding>
+                <element signature="e#0#16468#0" expanded="true" />
                 <element signature="e#2555#2797#0" expanded="true" />
                 <element signature="e#2796#2797#0" expanded="true" />
                 <element signature="e#4921#5043#0" expanded="true" />
                 <element signature="e#5042#5043#0" expanded="true" />
                 <element signature="e#6980#7163#0" expanded="true" />
                 <element signature="e#7162#7163#0" expanded="true" />
-                <element signature="e#8300#8929#0" expanded="true" />
-                <element signature="e#8928#8929#0" expanded="true" />
-                <element signature="e#8991#9357#0" expanded="true" />
-                <element signature="e#9356#9357#0" expanded="true" />
-                <element signature="e#9418#9557#0" expanded="true" />
-                <element signature="e#9556#9557#0" expanded="true" />
-                <element signature="e#9628#10279#0" expanded="true" />
-                <element signature="e#9761#10270#0" expanded="true" />
-                <element signature="e#10269#10270#0" expanded="true" />
-                <element signature="e#10278#10279#0" expanded="true" />
-                <element signature="e#10346#11119#0" expanded="true" />
-                <element signature="e#10467#11110#0" expanded="true" />
-                <element signature="e#11109#11110#0" expanded="true" />
-                <element signature="e#11118#11119#0" expanded="true" />
-                <element signature="e#11179#11338#0" expanded="true" />
-                <element signature="e#11337#11338#0" expanded="true" />
-                <element signature="e#11399#11949#0" expanded="true" />
-                <element signature="e#11948#11949#0" expanded="true" />
-                <element signature="e#12133#12748#0" expanded="true" />
-                <element signature="e#12747#12748#0" expanded="true" />
-                <element signature="e#12816#12917#0" expanded="true" />
-                <element signature="e#12916#12917#0" expanded="true" />
-                <element signature="e#12987#13130#0" expanded="true" />
-                <element signature="e#13129#13130#0" expanded="true" />
-                <element signature="e#13193#13296#0" expanded="true" />
-                <element signature="e#13295#13296#0" expanded="true" />
-                <element signature="e#15924#15959#0" expanded="true" />
+                <element signature="e#8321#8950#0" expanded="true" />
+                <element signature="e#8949#8950#0" expanded="true" />
+                <element signature="e#9012#9378#0" expanded="true" />
+                <element signature="e#9377#9378#0" expanded="true" />
+                <element signature="e#9439#9578#0" expanded="true" />
+                <element signature="e#9577#9578#0" expanded="true" />
+                <element signature="e#9649#10300#0" expanded="true" />
+                <element signature="e#9782#10291#0" expanded="true" />
+                <element signature="e#10290#10291#0" expanded="true" />
+                <element signature="e#10299#10300#0" expanded="true" />
+                <element signature="e#10367#11218#0" expanded="true" />
+                <element signature="e#10488#11209#0" expanded="true" />
+                <element signature="e#11208#11209#0" expanded="true" />
+                <element signature="e#11217#11218#0" expanded="true" />
+                <element signature="e#11278#11437#0" expanded="true" />
+                <element signature="e#11436#11437#0" expanded="true" />
+                <element signature="e#11498#12048#0" expanded="true" />
+                <element signature="e#12047#12048#0" expanded="true" />
+                <element signature="e#12232#12847#0" expanded="true" />
+                <element signature="e#12846#12847#0" expanded="true" />
+                <element signature="e#12915#13016#0" expanded="true" />
+                <element signature="e#13015#13016#0" expanded="true" />
+                <element signature="e#13086#13229#0" expanded="true" />
+                <element signature="e#13228#13229#0" expanded="true" />
+                <element signature="e#13292#13395#0" expanded="true" />
+                <element signature="e#13394#13395#0" expanded="true" />
+                <element signature="e#16023#16058#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraView.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="179" column="33" lean-forward="false" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera2Control.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/Camera2Control.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="150" column="16" lean-forward="false" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICameraControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/ICameraControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera1Control.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/Camera1Control.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bd_ocr_crop.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/res/layout/bd_ocr_crop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="19" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CropView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/crop/CropView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="225" column="21" lean-forward="false" selection-start-line="225" selection-start-column="21" selection-end-line="225" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameOverlayView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/crop/FrameOverlayView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1716">
-              <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -198,51 +264,11 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>takePicture</find>
-      <find>mHandler</find>
-      <find>cameraViewTakePictureCallback</find>
-      <find>cameraControl</find>
-      <find>cameraView</find>
-      <find>`</find>
-      <find>cameraView.takePicture</find>
-      <find>MASK_TYPE_NONE</find>
-      <find>outputFile</find>
-      <find>EXTRA_ALARM_TASK_TIME_OVER_ID</find>
-      <find>MSG_HANDLE_INTENT</find>
-      <find>mServiceHandler</find>
-      <find>REQUEST_CODE_GENERAL_BASIC</find>
-      <find>Log.d(&quot;juju&quot;, &quot;onTenMinuteTask&quot;)</find>
-      <find>onTenMinuteTask</find>
-      <find>words_result</find>
-      <find>wordResults</find>
-      <find>wordResult</find>
-      <find>currentWord</find>
-      <find>writeFileFromIS</find>
-      <find>ConvertUtils</find>
-      <find>默认不为空的数据@@@kobeBryant</find>
-      <find>duobao</find>
-      <find>chengju</find>
-      <find>iSignalProcess</find>
-      <find>EventBus</find>
-      <find>OCR</find>
-      <find>cropView</find>
-      <find>overlayView</find>
-      <find>cropContainer</find>
+      <find>takePictureContainer</find>
+      <find>confirmResultContainer</find>
     </findStrings>
-    <replaceStrings>
-      <replace>currentWords</replace>
-      <replace>ecurrentWord</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2492,28 +2518,6 @@
         </entry>
       </map>
     </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20150819_release" value="7199776726000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20150826_release" value="7202965466000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20150915_release" value="7211848789000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151021_release" value="7242537940000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151027_release" value="7230133287000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151102_release" value="7232222119000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151124_release" value="7241770997000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151209_release" value="7253869395000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/20151215_release" value="7253856012000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/Feature_AppLaunchOpt" value="7229558011000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/Feature_Flow_Float_Data" value="7211866569000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/Feature_Flow_WifiAP_Share" value="7203215980000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/Features_Flow_Stage_1" value="7205380991000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/feature_flow_campaign" value="7241663790000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/feature_flow_campaign_2" value="7247721823000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/feature_flow_statistics" value="10169875236000" />
-        <entry key="$USER_HOME$/Documents/Project/Branches/Features/feature_ime_flow_statistics" value="10171616751000" />
-        <entry key="$USER_HOME$/Documents/Project/Main/Main_Project" value="7226213394000" />
-      </map>
-    </option>
     <option name="projectBuildClasspath">
       <map>
         <entry key="$PROJECT_DIR$">
@@ -3083,54 +3087,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/IDCardActivity.java" />
-        <option value="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/Camera1Control.java" />
-        <option value="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/AlarmTaskManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MessageManager.java" />
-        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/ocr_ui/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/TaskEvent.java" />
-        <option value="$PROJECT_DIR$/ocr_ui/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/BackgroundService.java" />
-        <option value="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/util/PreferencesUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/PreferencesUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/task/AlarmTaskManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/task/BackgroundService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/task/TaskEvent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignDataModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignDataManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalDataManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/ISignalProcess.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataModel22.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/IOUtils.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/WarningModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalProcessManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/notification/SignalNotiHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConstUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConvertUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileUtils.java" />
-        <option value="$PROJECT_DIR$/ocr_ui/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/RecognizeService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java" />
         <option value="$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="712" />
+    <option name="x" value="301" />
+    <option name="y" value="37" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -3146,7 +3113,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3180,47 +3149,26 @@
               <item name="outputs" type="462c0819:PsiDirectoryNode" />
               <item name="apk" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OCRDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCRDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ocr_ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="android.sdk.path" value="$USER_HOME$/Documents/sdk/android-sdk-macosx" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="DEBUGGABLE_DEVICE" value="vivo-vivo_x7-d497b2ad" />
     <property name="DEBUGGABLE_PROCESS" value="com.baidu.ocr.demoju" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="device.picker.selection" value="03157df3bc314e3e" />
-    <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zhangchengju/Downloads/aip-ocr-android-sdk-1.4.3/OCRDemo/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.baidu.ocr.demo" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.baidu.ocr.demo.util" />
-      <recent name="com.baidu.ocr.demo.data" />
-      <recent name="com.baidu.ocr.ui.util" />
-      <recent name="com.baidu.ocr.demo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ocr_ui" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/src/main/res" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3258,7 +3206,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3272,6 +3220,8 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -3315,24 +3265,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="OCRDemo [cleanBuildCache]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanBuildCache" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
     <configuration name="OCRDemo:app [assembleDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -3345,24 +3277,6 @@
         <option name="taskNames">
           <list>
             <option value="assembleDebug" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration name="OCRDemo:app [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assembleRelease" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -3405,6 +3319,24 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
+    <configuration name="OCRDemo:ocr_ui [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ocr_ui" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -3425,7 +3357,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -3448,99 +3380,79 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <list size="6">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleDebug]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.OCRDemo:ocr_ui [assembleDebug]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [clean]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleRelease]" />
-      <item index="5" class="java.lang.String" itemvalue="Gradle.OCRDemo [cleanBuildCache]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.OCRDemo:ocr_ui [assembleDebug]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleDebug]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.OCRDemo:ocr_ui [clean]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [clean]" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.OCRDemo [cleanBuildCache]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleRelease]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [clean]" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.OCRDemo:ocr_ui [clean]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleDebug]" />
         <item index="3" class="java.lang.String" itemvalue="Gradle.OCRDemo:ocr_ui [assembleDebug]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.OCRDemo:app [assembleDebug]" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration" SSL_PROTOCOLS="tlsv1">
-    <configuration>$USER_HOME$/.subversion</configuration>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e4a0981-11e7-474f-a279-eaad7e66888e" name="Default" comment="" />
-      <created>1536196759794</created>
+      <changelist id="f354ff58-389f-405f-a83b-e0c4e35ff4d0" name="Default" comment="" />
+      <created>1537519266177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536196759794</updated>
+      <updated>1537519266177</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="708" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5176152" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20677966" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1338983" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.50715744" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14237288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18474576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18983051" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22364673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.042735044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24798061" sideWeight="0.48238483" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1661017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.49284253" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36737588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3549,559 +3461,128 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="91" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/java/util/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="113" column="16" lean-forward="false" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1401" column="19" lean-forward="false" selection-start-line="1401" selection-start-column="19" selection-end-line="1401" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/util/PreferencesUtils.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/task/TaskEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/sdk/android-sdk-macosx/extras/android/m2repository/com/android/support/appcompat-v7/25.1.1/appcompat-v7-25.1.1-sources.jar!/android/support/v7/app/AlertDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="931" column="32" lean-forward="true" selection-start-line="931" selection-start-column="32" selection-end-line="931" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/android/content/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="2492" column="13" lean-forward="true" selection-start-line="2492" selection-start-column="13" selection-end-line="2492" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/PreferencesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="246" column="23" lean-forward="false" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.70.android/133e74249176e8f5a5cd976bbfa491ac4f8b0c4e/fastjson-1.1.70.android.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataModel22.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/baidu/ocr/demo/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/sdk/android-sdk-macosx/extras/android/m2repository/com/android/support/support-compat/25.1.1/support-compat-25.1.1-sources.jar!/android/support/v4/app/NotificationCompat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1292" column="23" lean-forward="false" selection-start-line="1292" selection-start-column="23" selection-end-line="1292" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1059">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/IOUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/ISignalProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/SignalDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/data/WarningModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/notification/SignalNotiHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConstUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/ConvertUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/util/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/CameraConfirmEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/task/AlarmTaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sdk/android-sdk-macosx/sources/android-25/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="354" column="16" lean-forward="false" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="16" />
-          <folding>
-            <element signature="e#8783#8784#0" expanded="false" />
-            <element signature="e#8826#8827#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/SignalProcessManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/ocr-sdk.jar!/com/baidu/ocr/sdk/OCR.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="439" column="20" lean-forward="false" selection-start-line="439" selection-start-column="20" selection-end-line="439" selection-end-column="20" />
-          <folding>
-            <marker date="1532335460000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532335460000" expanded="false" signature="141:1515" ph="..." />
-            <marker date="1532335460000" expanded="false" signature="5260:5271" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="5300:5306" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="5366:5421" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="5452:5529" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="5578:5844" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="5884:6303" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="6347:6358" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="6381:6387" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="6458:6973" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="7027:7038" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="7062:7068" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="7166:7275" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="7374:7484" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="7614:8913" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="8041:8905" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="8091:8789" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="8240:8773" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="8305:8502" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="8560:8755" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="8838:8857" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="8881:8895" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="9021:9138" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="9247:9365" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="9476:9596" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="9700:9812" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="9949:11266" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="10388:11258" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="10438:11142" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="10593:11126" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="10658:10855" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="10913:11108" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="11191:11210" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="11234:11248" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="11373:12759" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="11843:12751" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="11893:12635" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="12087:12619" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="12151:12348" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="12406:12601" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="12684:12703" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="12727:12741" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="12873:14230" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="13305:14222" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="13355:14106" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="13556:14090" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="13622:13819" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="13877:14072" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="14155:14174" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="14198:14212" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="14343:14459" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="14572:14688" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="14799:14913" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="15027:15144" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="15250:15358" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="15467:15579" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="15689:15801" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="15906:16013" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="16119:16227" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="16334:16443" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="16549:16657" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="16768:16882" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="16987:17107" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="17242:18544" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="17667:18536" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="17717:18420" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="17867:18404" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="17936:18133" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="18191:18386" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="18469:18488" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="18512:18526" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="18550:18568" ph="/**...*/" />
-            <marker date="1532335460000" expanded="true" signature="18651:18722" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="18843:19923" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="19956:20513" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="20604:20678" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="20789:20862" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="20978:22262" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="22301:23351" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="23403:23484" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="23545:24665" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="23705:24047" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="23768:23899" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="23956:23983" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="24007:24029" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="24210:24552" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="24273:24404" ph="{...}" />
-            <marker date="1532335460000" expanded="false" signature="24461:24488" ph=" { " />
-            <marker date="1532335460000" expanded="false" signature="24512:24534" ph=" }" />
-            <marker date="1532335460000" expanded="true" signature="24720:25061" ph="{...}" />
-            <marker date="1532335460000" expanded="true" signature="25089:25298" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="735" column="17" lean-forward="false" selection-start-line="735" selection-start-column="17" selection-end-line="735" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#2116#2314#0" expanded="false" />
-            <element signature="e#2313#2314#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/RecognizeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding>
-            <element signature="e#4811#4812#0" expanded="false" />
-            <element signature="e#4880#4881#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/crop/FrameOverlayView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1716">
-          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/res/layout/bd_ocr_crop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/crop/CropView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="225" column="21" lean-forward="false" selection-start-line="225" selection-start-column="21" selection-end-line="225" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/ICameraControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/Camera2Control.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="150" column="16" lean-forward="false" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="179" column="33" lean-forward="false" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/Camera1Control.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="325" column="21" lean-forward="true" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#16468#0" expanded="true" />
             <element signature="e#2555#2797#0" expanded="true" />
             <element signature="e#2796#2797#0" expanded="true" />
             <element signature="e#4921#5043#0" expanded="true" />
             <element signature="e#5042#5043#0" expanded="true" />
             <element signature="e#6980#7163#0" expanded="true" />
             <element signature="e#7162#7163#0" expanded="true" />
-            <element signature="e#8300#8929#0" expanded="true" />
-            <element signature="e#8928#8929#0" expanded="true" />
-            <element signature="e#8991#9357#0" expanded="true" />
-            <element signature="e#9356#9357#0" expanded="true" />
-            <element signature="e#9418#9557#0" expanded="true" />
-            <element signature="e#9556#9557#0" expanded="true" />
-            <element signature="e#9628#10279#0" expanded="true" />
-            <element signature="e#9761#10270#0" expanded="true" />
-            <element signature="e#10269#10270#0" expanded="true" />
-            <element signature="e#10278#10279#0" expanded="true" />
-            <element signature="e#10346#11119#0" expanded="true" />
-            <element signature="e#10467#11110#0" expanded="true" />
-            <element signature="e#11109#11110#0" expanded="true" />
-            <element signature="e#11118#11119#0" expanded="true" />
-            <element signature="e#11179#11338#0" expanded="true" />
-            <element signature="e#11337#11338#0" expanded="true" />
-            <element signature="e#11399#11949#0" expanded="true" />
-            <element signature="e#11948#11949#0" expanded="true" />
-            <element signature="e#12133#12748#0" expanded="true" />
-            <element signature="e#12747#12748#0" expanded="true" />
-            <element signature="e#12816#12917#0" expanded="true" />
-            <element signature="e#12916#12917#0" expanded="true" />
-            <element signature="e#12987#13130#0" expanded="true" />
-            <element signature="e#13129#13130#0" expanded="true" />
-            <element signature="e#13193#13296#0" expanded="true" />
-            <element signature="e#13295#13296#0" expanded="true" />
-            <element signature="e#15924#15959#0" expanded="true" />
+            <element signature="e#8321#8950#0" expanded="true" />
+            <element signature="e#8949#8950#0" expanded="true" />
+            <element signature="e#9012#9378#0" expanded="true" />
+            <element signature="e#9377#9378#0" expanded="true" />
+            <element signature="e#9439#9578#0" expanded="true" />
+            <element signature="e#9577#9578#0" expanded="true" />
+            <element signature="e#9649#10300#0" expanded="true" />
+            <element signature="e#9782#10291#0" expanded="true" />
+            <element signature="e#10290#10291#0" expanded="true" />
+            <element signature="e#10299#10300#0" expanded="true" />
+            <element signature="e#10367#11218#0" expanded="true" />
+            <element signature="e#10488#11209#0" expanded="true" />
+            <element signature="e#11208#11209#0" expanded="true" />
+            <element signature="e#11217#11218#0" expanded="true" />
+            <element signature="e#11278#11437#0" expanded="true" />
+            <element signature="e#11436#11437#0" expanded="true" />
+            <element signature="e#11498#12048#0" expanded="true" />
+            <element signature="e#12047#12048#0" expanded="true" />
+            <element signature="e#12232#12847#0" expanded="true" />
+            <element signature="e#12846#12847#0" expanded="true" />
+            <element signature="e#12915#13016#0" expanded="true" />
+            <element signature="e#13015#13016#0" expanded="true" />
+            <element signature="e#13086#13229#0" expanded="true" />
+            <element signature="e#13228#13229#0" expanded="true" />
+            <element signature="e#13292#13395#0" expanded="true" />
+            <element signature="e#13394#13395#0" expanded="true" />
+            <element signature="e#16023#16058#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraNativeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/ocr/demo/biz/BackgroundService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraNativeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr_ui/src/main/java/com/baidu/ocr/ui/camera/CameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="242" column="26" lean-forward="false" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#16468#0" expanded="true" />
+            <element signature="e#2555#2797#0" expanded="true" />
+            <element signature="e#2796#2797#0" expanded="true" />
+            <element signature="e#4921#5043#0" expanded="true" />
+            <element signature="e#5042#5043#0" expanded="true" />
+            <element signature="e#6980#7163#0" expanded="true" />
+            <element signature="e#7162#7163#0" expanded="true" />
+            <element signature="e#8321#8950#0" expanded="true" />
+            <element signature="e#8949#8950#0" expanded="true" />
+            <element signature="e#9012#9378#0" expanded="true" />
+            <element signature="e#9377#9378#0" expanded="true" />
+            <element signature="e#9439#9578#0" expanded="true" />
+            <element signature="e#9577#9578#0" expanded="true" />
+            <element signature="e#9649#10300#0" expanded="true" />
+            <element signature="e#9782#10291#0" expanded="true" />
+            <element signature="e#10290#10291#0" expanded="true" />
+            <element signature="e#10299#10300#0" expanded="true" />
+            <element signature="e#10367#11218#0" expanded="true" />
+            <element signature="e#10488#11209#0" expanded="true" />
+            <element signature="e#11208#11209#0" expanded="true" />
+            <element signature="e#11217#11218#0" expanded="true" />
+            <element signature="e#11278#11437#0" expanded="true" />
+            <element signature="e#11436#11437#0" expanded="true" />
+            <element signature="e#11498#12048#0" expanded="true" />
+            <element signature="e#12047#12048#0" expanded="true" />
+            <element signature="e#12232#12847#0" expanded="true" />
+            <element signature="e#12846#12847#0" expanded="true" />
+            <element signature="e#12915#13016#0" expanded="true" />
+            <element signature="e#13015#13016#0" expanded="true" />
+            <element signature="e#13086#13229#0" expanded="true" />
+            <element signature="e#13228#13229#0" expanded="true" />
+            <element signature="e#13292#13395#0" expanded="true" />
+            <element signature="e#13394#13395#0" expanded="true" />
+            <element signature="e#16023#16058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

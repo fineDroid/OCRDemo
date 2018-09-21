@@ -240,6 +240,7 @@ public class CameraActivity extends Activity {
 		takePictureContainer.setVisibility(View.INVISIBLE);
 		confirmResultContainer.setVisibility(View.VISIBLE);
 		cropContainer.setVisibility(View.INVISIBLE);
+		doConfirmResult();
 	}
 
 	// take photo;
@@ -321,8 +322,10 @@ public class CameraActivity extends Activity {
 				public void run() {
 					takePictureContainer.setVisibility(View.INVISIBLE);
 					if (cropMaskView.getMaskType() == MaskView.MASK_TYPE_NONE) {
-						cropView.setFilePath(outputFile.getAbsolutePath());
-						showCrop();
+//						cropView.setFilePath(outputFile.getAbsolutePath());
+//						showCrop();
+						displayImageView.setImageBitmap(bitmap);
+						showResultConfirm();
 					} else if (cropMaskView.getMaskType() == MaskView.MASK_TYPE_BANK_CARD) {
 						cropView.setFilePath(outputFile.getAbsolutePath());
 						cropMaskView.setVisibility(View.INVISIBLE);
