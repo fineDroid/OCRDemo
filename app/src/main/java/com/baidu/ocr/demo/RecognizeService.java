@@ -26,7 +26,7 @@ import java.io.File;
 
 public class RecognizeService {
 
-    interface ServiceListener {
+    public interface ServiceListener {
         public void onResult(String result);
     }
 

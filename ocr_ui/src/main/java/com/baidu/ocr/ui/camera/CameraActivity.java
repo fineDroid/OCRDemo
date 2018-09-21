@@ -24,10 +24,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.baidu.CameraConfirmEvent;
 import com.baidu.idcardquality.IDcardQualityProcess;
 import com.baidu.ocr.ui.R;
 import com.baidu.ocr.ui.crop.CropView;
 import com.baidu.ocr.ui.crop.FrameOverlayView;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -137,12 +140,12 @@ public class CameraActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		cameraView.start();
-//		new Handler().postDelayed(new Runnable() {
-//			@Override
-//			public void run() {
-//				cameraView.takePicture(outputFile, takePictureCallback);
-//			}
-//		}, 1900);
+		new Handler().postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				cameraView.takePicture(outputFile, takePictureCallback);
+			}
+		}, 1900);
 	}
 
 	private void initParams() {
@@ -384,10 +387,14 @@ public class CameraActivity extends Activity {
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
+
+				EventBus.getDefault().post(new CameraConfirmEvent());
+
 				Intent intent = new Intent();
 				intent.putExtra(CameraActivity.KEY_CONTENT_TYPE, contentType);
 				setResult(Activity.RESULT_OK, intent);
 				finish();
+
 			}
 		});
 	}

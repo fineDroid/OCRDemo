@@ -9,11 +9,16 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.baidu.ocr.demo.MessageManager;
+import com.baidu.CameraConfirmEvent;
+import com.baidu.ocr.demo.FileUtil;
+import com.baidu.ocr.demo.RecognizeService;
 import com.baidu.ocr.demo.task.AlarmTaskManager;
-import com.baidu.ocr.demo.task.TaskEvent;
+import com.baidu.ocr.sdk.OCR;
+import com.baidu.ocr.ui.camera.CameraActivity;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 /**
  * @author zhangchengju
@@ -38,8 +43,11 @@ public class BackgroundService extends Service {
 		super.onCreate();
 		mContext = this;
 		mServiceHandler = new ServiceHandler();
+		boolean registered = EventBus.getDefault().isRegistered(BackgroundService.this);
+		if (!registered) {
+			EventBus.getDefault().register(BackgroundService.this);
+		}
 	}
-
 
 	@Nullable
 	@Override
@@ -61,9 +69,23 @@ public class BackgroundService extends Service {
 		return super.onStartCommand(intent, flags, startId);
 	}
 
+	@Subscribe(threadMode = ThreadMode.BACKGROUND)
+	public void onCameraConfirm(CameraConfirmEvent event) {
+		RecognizeService.recGeneralBasic(getApplicationContext(), FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
+				new RecognizeService.ServiceListener() {
+					@Override
+					public void onResult(String result) {
+						SignalProcessManager.getInstance().handleSignal(BackgroundService.this, result);
+					}
+				});
+
+	}
+
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
+		EventBus.getDefault().unregister(this);
+		OCR.getInstance(this).release();
 	}
 
 	private class ServiceHandler extends Handler {
@@ -83,8 +105,18 @@ public class BackgroundService extends Service {
 					if (task == AlarmTaskManager.TASK_TEN_MIN) {
 						//
 						Log.d("juju", "定时任务");
-						MessageManager.getInstance().refreshNewOrder();
-						EventBus.getDefault().post(new TaskEvent());
+						boolean registered = EventBus.getDefault().isRegistered(BackgroundService.this);
+						if (!registered) {
+							EventBus.getDefault().register(BackgroundService.this);
+						}
+
+						Intent newIntent = new Intent(BackgroundService.this, CameraActivity.class);
+						newIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+						newIntent.putExtra(CameraActivity.KEY_OUTPUT_FILE_PATH,
+								FileUtil.getSaveFile(getApplication()).getAbsolutePath());
+						newIntent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
+								CameraActivity.CONTENT_TYPE_GENERAL);
+						startActivity(newIntent);
 					}
 				}
 			}

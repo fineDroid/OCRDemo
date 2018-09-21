@@ -10,28 +10,19 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.baidu.ocr.demo.biz.ISignalProcess;
 import com.baidu.ocr.demo.biz.SignalProcessManager;
-import com.baidu.ocr.demo.task.TaskEvent;
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.sdk.OnResultListener;
 import com.baidu.ocr.sdk.exception.OCRError;
 import com.baidu.ocr.sdk.model.AccessToken;
 import com.baidu.ocr.ui.camera.CameraActivity;
 
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
-
-import java.util.Observable;
-import java.util.Observer;
-
-public class MainActivity extends AppCompatActivity implements Observer {
+public class MainActivity extends AppCompatActivity {
 
 	private static final int REQUEST_CODE_GENERAL = 105;
 	private static final int REQUEST_CODE_GENERAL_BASIC = 106;
@@ -69,8 +60,6 @@ public class MainActivity extends AppCompatActivity implements Observer {
 		setContentView(R.layout.activity_main);
 		alertDialog = new AlertDialog.Builder(this);
 		iSignalProcess = SignalProcessManager.getInstance();
-		MessageManager.getInstance().addObserver(this);
-		EventBus.getDefault().register(this);
 		mTextView = (TextView) findViewById(R.id.signal_tv);
 		mTextView.clearComposingText();
 
@@ -520,14 +509,14 @@ public class MainActivity extends AppCompatActivity implements Observer {
 
 		// 识别成功回调，通用文字识别
 		if (requestCode == REQUEST_CODE_GENERAL_BASIC && resultCode == Activity.RESULT_OK) {
-			RecognizeService.recGeneralBasic(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-					new RecognizeService.ServiceListener() {
-						@Override
-						public void onResult(String result) {
-							mTextView.setText(result);
-							iSignalProcess.handleSignal(MainActivity.this, result);
-						}
-					});
+//			RecognizeService.recGeneralBasic(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
+//					new RecognizeService.ServiceListener() {
+//						@Override
+//						public void onResult(String result) {
+//							mTextView.setText(result);
+//							iSignalProcess.handleSignal(MainActivity.this, result);
+//						}
+//					});
 		}
 
 //		// 识别成功回调，通用文字识别（含位置信息）
@@ -745,27 +734,6 @@ public class MainActivity extends AppCompatActivity implements Observer {
 	protected void onDestroy() {
 		super.onDestroy();
 		// 释放内存资源
-		OCR.getInstance(this).release();
-		MessageManager.getInstance().removeObserver(this);
 	}
 
-
-	@Subscribe(threadMode = ThreadMode.MAIN)
-	public void onTenMinuteTask(TaskEvent event) {
-		Log.d("juju", "onTenMinuteTask");
-		if (!checkTokenStatus()) {
-			return;
-		}
-		Intent intent = new Intent(MainActivity.this, CameraActivity.class);
-		intent.putExtra(CameraActivity.KEY_OUTPUT_FILE_PATH,
-				FileUtil.getSaveFile(getApplication()).getAbsolutePath());
-		intent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
-				CameraActivity.CONTENT_TYPE_GENERAL);
-		startActivityForResult(intent, REQUEST_CODE_GENERAL_BASIC);
-	}
-
-	@Override
-	public void update(Observable o, Object arg) {
-
-	}
 }
