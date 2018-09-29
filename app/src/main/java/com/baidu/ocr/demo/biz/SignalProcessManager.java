@@ -11,6 +11,9 @@ import com.baidu.ocr.demo.data.SignalDataModel;
 import com.baidu.ocr.demo.data.WarningModel;
 import com.baidu.ocr.demo.notification.SignalNotiHelper;
 import com.baidu.ocr.demo.task.AlarmTaskManager;
+import com.baidu.ocr.demo.task.NotifyContentEvent;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,17 +47,35 @@ public class SignalProcessManager implements ISignalProcess {
 	@Override
 	public void handleSignal(Context context, String resultJson) {
 		Log.d("juju", resultJson);
+
 		SignalDataModel signalDataModel = JSON.parseObject(resultJson, SignalDataModel.class);
+
+		StringBuilder stringBuilder = new StringBuilder();
+		List<SignalDataModel.WordResult> results = signalDataModel.getWords_result();
+		if (results != null && results.size() != 0) {
+			for (SignalDataModel.WordResult wordResult : results) {
+				stringBuilder.append(wordResult.getWords());
+				stringBuilder.append("\n");
+				stringBuilder.append("\n");
+			}
+			EventBus.getDefault().post(new NotifyContentEvent(stringBuilder.toString()));
+		}
+
 		//检查报警
 		checkErrorSignal(signalDataModel);
 
 		//先更新--新增表
 		updateLastAddedSignals(signalDataModel);
 
-
 		//再更新--原信号表
 		updataSourceSingals(resultJson);
-		AlarmTaskManager.startOnceTask(context, 30 * 1000);
+	}
+
+	@Override
+	public void onNextPhotoTask(Context context) {
+		//时间间隔秒
+		int timeInterval = SignalDataManager.getTimeInterval(context);
+		AlarmTaskManager.startOnceTask(context, timeInterval * 1000);
 	}
 
 	private void checkErrorSignal(SignalDataModel signalDataModel) {

@@ -15,4 +15,6 @@ public interface ISignalProcess {
 	void close(Context context);
 
 	void handleSignal(Context context, String result);
+
+	void onNextPhotoTask(Context context);
 }

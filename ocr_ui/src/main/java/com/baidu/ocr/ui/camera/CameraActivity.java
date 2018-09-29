@@ -145,7 +145,7 @@ public class CameraActivity extends Activity {
 			public void run() {
 				cameraView.takePicture(outputFile, takePictureCallback);
 			}
-		}, 1900);
+		}, 2300);
 	}
 
 	private void initParams() {

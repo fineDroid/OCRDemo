@@ -71,6 +71,7 @@ public class BackgroundService extends Service {
 
 	@Subscribe(threadMode = ThreadMode.BACKGROUND)
 	public void onCameraConfirm(CameraConfirmEvent event) {
+		SignalProcessManager.getInstance().onNextPhotoTask(BackgroundService.this);
 		RecognizeService.recGeneralBasic(getApplicationContext(), FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
 				new RecognizeService.ServiceListener() {
 					@Override
