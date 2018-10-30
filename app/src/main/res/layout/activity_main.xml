@@ -63,6 +63,14 @@
             android:text="停止信号处理"
             tools:ignore="HardcodedText" />
 
+        <Button
+            android:id="@+id/reset_data_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="重置数据"
+            tools:ignore="HardcodedText" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

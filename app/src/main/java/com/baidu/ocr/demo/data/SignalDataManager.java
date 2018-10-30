@@ -24,26 +24,21 @@ public class SignalDataManager {
 	//每次拍照的时间间隔
 	private static final String KEY_SIGN_TIME_INETRVAL = "KEY_SIGN_TIME_INETRVAL";
 
-	public static void saveSourceSignals(Context context, String resultJson) {
-		SignalDataModel signalDataModel = JSON.parseObject(resultJson, SignalDataModel.class);
-		if (signalDataModel != null) {
-			PreferencesUtils.setObject(context, KEY_SOURCE_SIGN_DATA, signalDataModel);
-		}
+	public static void saveSourceSignals(Context context, int nums) {
+		PreferencesUtils.putInt(context, KEY_SOURCE_SIGN_DATA, nums);
 	}
 
 
-	public static SignalDataModel readSourceSignals(Context context) {
-		return PreferencesUtils.getObject(context, KEY_SOURCE_SIGN_DATA);
+	public static int readSourceSignals(Context context) {
+		return PreferencesUtils.getInt(context, KEY_SOURCE_SIGN_DATA, 0);
 	}
 
-	public static void saveLastAddedSignals(Context context, List<SignalDataModel.WordResult> newWordResults) {
-		if (newWordResults != null && newWordResults.size() != 0) {
-			PreferencesUtils.setObject(context, KEY_ADDED_SIGN_DATA, newWordResults);
-		}
+	public static void saveLastAddedSignals(Context context, int nums) {
+		PreferencesUtils.putInt(context, KEY_ADDED_SIGN_DATA, nums);
 	}
 
-	public static List<SignalDataModel.WordResult> readLastAddedSignals(Context context) {
-		return PreferencesUtils.getObject(context, KEY_ADDED_SIGN_DATA);
+	public static int readLastAddedSignals(Context context) {
+		return PreferencesUtils.getInt(context, KEY_ADDED_SIGN_DATA, 0);
 	}
 
 	public static void savaTimeInterval(Context context, String string) {

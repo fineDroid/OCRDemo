@@ -75,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
 			}
 		});
 
+		findViewById(R.id.reset_data_button).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				iSignalProcess.resetData(MainActivity.this);
+			}
+		});
+
 		mEditText.addTextChangedListener(new TextWatcher() {
 			@Override
 			public void beforeTextChanged(CharSequence s, int start, int count, int after) {

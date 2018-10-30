@@ -62,13 +62,16 @@ public class SignalProcessManager implements ISignalProcess {
 		}
 
 		//检查报警
-		checkErrorSignal(signalDataModel);
+		boolean isError = checkErrorSignal(signalDataModel);
+		if (isError) {
+			resetData(mContext);
+		} else {
+			//先更新--新增表
+			updateLastAddedSignals(signalDataModel);
 
-		//先更新--新增表
-		updateLastAddedSignals(signalDataModel);
-
-		//再更新--原信号表
-		updataSourceSingals(resultJson);
+			//再更新--原信号表
+			updataSourceSingals(signalDataModel);
+		}
 	}
 
 	@Override
@@ -78,12 +81,20 @@ public class SignalProcessManager implements ISignalProcess {
 		AlarmTaskManager.startOnceTask(context, timeInterval * 1000);
 	}
 
-	private void checkErrorSignal(SignalDataModel signalDataModel) {
+	@Override
+	public void resetData(Context context) {
+		SignalDataManager.saveLastAddedSignals(context, 0);
+		SignalDataManager.saveSourceSignals(context, 0);
+	}
+
+	private boolean checkErrorSignal(SignalDataModel signalDataModel) {
 		WarningModel warningModel = checkInLastAddedSignalList(signalDataModel);
 		if (warningModel.isNeedWarning()) {
 			// notify()
 			SignalNotiHelper.notify(mContext, warningModel.getContent());
+			return true;
 		}
+		return false;
 	}
 
 	private WarningModel checkInLastAddedSignalList(SignalDataModel signalDataModel) {
@@ -99,30 +110,17 @@ public class SignalProcessManager implements ISignalProcess {
 		}
 
 		//没有新增信号，不报警
-		List<SignalDataModel.WordResult> addWordResults = SignalDataManager.readLastAddedSignals(mContext);
-		if (addWordResults == null || addWordResults.size() == 0) {
+		int lastAddWordResults = SignalDataManager.readLastAddedSignals(mContext);
+		if (lastAddWordResults == 0) {
 			return warningModel;
 		}
 
-		for (SignalDataModel.WordResult everyCurrentWord : currentWords) {
-			Log.d(TAG, "isInLastAddedSignalList()======everyCurrentWord: " + everyCurrentWord.getWords());
-			if (TextUtils.isEmpty(everyCurrentWord.getWords())) {
-				continue;
-			}
-
-			//在新增里，true，报警
-			for (SignalDataModel.WordResult everyAdd : addWordResults) {
-				Log.d(TAG, "isInLastAddedSignalList()======everyLastAdd: " + everyAdd.getWords());
-				if (everyAdd.getWords().equals(everyCurrentWord.getWords())) {
-					Log.d(TAG, "isInLastAddedSignalList()======everyLastAdd=everyCurrentWord");
-					warningModel.setNeedWarning(true);
-					warningModel.setContent(everyCurrentWord.getWords());
-					return warningModel;
-				}
-			}
-
+		//当前>=lastAddWordResults 报警
+		if (currentWords.size() >= lastAddWordResults) {
+			warningModel.setNeedWarning(true);
+			warningModel.setContent("老二,有错误信号啦");
+			return warningModel;
 		}
-
 		return warningModel;
 	}
 
@@ -138,53 +136,28 @@ public class SignalProcessManager implements ISignalProcess {
 			return;
 		}
 
-		//没有旧信号，不存
-		if (SignalDataManager.readSourceSignals(mContext) == null) {
-			return;
-		}
 
-		//没有旧信号，不存
-		List<SignalDataModel.WordResult> lastWordResults = SignalDataManager.readSourceSignals(mContext).getWords_result();
-		if (lastWordResults == null || lastWordResults.size() == 0) {
-			return;
-		}
-
-		List<SignalDataModel.WordResult> addWordResults = new ArrayList<>();
-		//当前信号是新增信号，存
-		for (SignalDataModel.WordResult currentWordResult : currentWordResults) {
-			if (TextUtils.isEmpty(currentWordResult.getWords())) {
-				continue;
-			}
-			Log.d(TAG, "updateLastAddedSignals()======currentWordResult: " + currentWordResult.getWords());
-			if (!inAdd(currentWordResult, lastWordResults)) {
-				Log.d(TAG, "updateLastAddedSignals()======currentWordResult: " + currentWordResult + " is not in lastWordResultsList");
-				addWordResults.add(currentWordResult);
-			}
+		int lastSourceNums = SignalDataManager.readSourceSignals(mContext);
+		if (currentWordResults.size() > lastSourceNums) {
+			//把新增信号存在SP
+			SignalDataManager.saveLastAddedSignals(mContext, currentWordResults.size());
 		}
 		//没有新增，强制更新为初始状态
-		if (addWordResults.size() == 0) {
-			SignalDataModel.WordResult temp = new SignalDataModel.WordResult();
-			temp.setWords("默认不为空的数据@@@kobeBryant");
-			Log.d(TAG, "updateLastAddedSignals()======addDefault @@@kobeBryant");
-			addWordResults.add(temp);
+
+	}
+
+	private void updataSourceSingals(SignalDataModel signalDataModel) {
+		if (signalDataModel == null) {
+			return;
+		}
+		List<SignalDataModel.WordResult> currentWordResults = signalDataModel.getWords_result();
+		if (currentWordResults == null || currentWordResults.size() == 0) {
+			return;
 		}
 
-		//把新增信号存在SP
-		SignalDataManager.saveLastAddedSignals(mContext, addWordResults);
+		SignalDataManager.saveSourceSignals(mContext, currentWordResults.size());
 	}
 
-	private void updataSourceSingals(String resultJson) {
-		SignalDataManager.saveSourceSignals(mContext, resultJson);
-	}
-
-	private boolean inAdd(SignalDataModel.WordResult currentWordResult, List<SignalDataModel.WordResult> lastWordResults) {
-		for (SignalDataModel.WordResult everyLastWord : lastWordResults) {
-			if (everyLastWord.getWords().equals(currentWordResult.getWords())) {
-				return true;
-			}
-		}
-		return false;
-	}
 
 	private static class SignalProcessHolder {
 		private static final SignalProcessManager INSTANCE = new SignalProcessManager();
