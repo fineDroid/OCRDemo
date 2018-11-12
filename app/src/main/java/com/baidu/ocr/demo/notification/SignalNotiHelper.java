@@ -42,7 +42,7 @@ public class SignalNotiHelper {
 					.setAutoCancel(true)
 					.setContentIntent(pendingIntent);
 
-			Uri sound = makeSoundUri(context, R.raw.fans, "fans.ogg");
+			Uri sound = Uri.parse("android.resource://" + context.getPackageName() + "/" + R.raw.fans);
 			if (sound != null) {
 				builder.setSound(sound);
 			} else {

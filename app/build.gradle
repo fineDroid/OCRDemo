@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.baidu.ocr.demoju"
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 23
         versionCode 12
         versionName "1.2.0"
     }
