@@ -30,7 +30,7 @@ public class SignalDataManager {
 
 
 	public static int readSourceSignals(Context context) {
-		return PreferencesUtils.getInt(context, KEY_SOURCE_SIGN_DATA, 0);
+		return PreferencesUtils.getInt(context, KEY_SOURCE_SIGN_DATA, -1);
 	}
 
 	public static void saveLastAddedSignals(Context context, int nums) {
@@ -38,7 +38,7 @@ public class SignalDataManager {
 	}
 
 	public static int readLastAddedSignals(Context context) {
-		return PreferencesUtils.getInt(context, KEY_ADDED_SIGN_DATA, 0);
+		return PreferencesUtils.getInt(context, KEY_ADDED_SIGN_DATA, -1);
 	}
 
 	public static void savaTimeInterval(Context context, String string) {

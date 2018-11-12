@@ -83,8 +83,8 @@ public class SignalProcessManager implements ISignalProcess {
 
 	@Override
 	public void resetData(Context context) {
-		SignalDataManager.saveLastAddedSignals(context, 0);
-		SignalDataManager.saveSourceSignals(context, 0);
+		SignalDataManager.saveLastAddedSignals(context, -1);
+		SignalDataManager.saveSourceSignals(context, -1);
 	}
 
 	private boolean checkErrorSignal(SignalDataModel signalDataModel) {
@@ -111,14 +111,14 @@ public class SignalProcessManager implements ISignalProcess {
 
 		//没有新增信号，不报警
 		int lastAddWordResults = SignalDataManager.readLastAddedSignals(mContext);
-		if (lastAddWordResults == 0) {
+		if (lastAddWordResults == -1) {
 			return warningModel;
 		}
 
 		//当前>=lastAddWordResults 报警
 		if (currentWords.size() >= lastAddWordResults) {
 			warningModel.setNeedWarning(true);
-			warningModel.setContent("老二,有错误信号啦");
+			warningModel.setContent("三哥,有错误信号啦");
 			return warningModel;
 		}
 		return warningModel;
@@ -138,7 +138,8 @@ public class SignalProcessManager implements ISignalProcess {
 
 
 		int lastSourceNums = SignalDataManager.readSourceSignals(mContext);
-		if (currentWordResults.size() > lastSourceNums) {
+
+		if (lastSourceNums > 0 && currentWordResults.size() > lastSourceNums) {
 			//把新增信号存在SP
 			SignalDataManager.saveLastAddedSignals(mContext, currentWordResults.size());
 		}
