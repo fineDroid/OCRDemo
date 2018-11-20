@@ -12,6 +12,7 @@ import android.util.Log;
 import com.baidu.CameraConfirmEvent;
 import com.baidu.ocr.demo.FileUtil;
 import com.baidu.ocr.demo.RecognizeService;
+import com.baidu.ocr.demo.notification.SignalNotiHelper;
 import com.baidu.ocr.demo.task.AlarmTaskManager;
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.ui.camera.CameraActivity;
@@ -105,7 +106,7 @@ public class BackgroundService extends Service {
 					int task = intent.getIntExtra(EXTRA_ALARM_TASK_TIME_OVER_ID, -1);
 					if (task == AlarmTaskManager.TASK_TEN_MIN) {
 						//
-						Log.d("juju", "定时任务");
+						Log.d("juju", "拍照定时任务");
 						boolean registered = EventBus.getDefault().isRegistered(BackgroundService.this);
 						if (!registered) {
 							EventBus.getDefault().register(BackgroundService.this);
@@ -118,6 +119,10 @@ public class BackgroundService extends Service {
 						newIntent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
 								CameraActivity.CONTENT_TYPE_GENERAL);
 						startActivity(newIntent);
+					} else if (task == AlarmTaskManager.TASK_TWO_SECOND) {
+						Log.d("juju", "提醒定时任务");
+						SignalNotiHelper.notify(mContext, "三哥,有错误信号啦");
+						SignalProcessManager.getInstance().onNextWarningTask(BackgroundService.this);
 					}
 				}
 			}

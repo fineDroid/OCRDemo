@@ -12,11 +12,13 @@ public interface ISignalProcess {
 
 	void init(Context context);
 
-	void close(Context context);
+	void closeTask(Context context);
 
 	void handleSignal(Context context, String result);
 
 	void onNextPhotoTask(Context context);
+
+	void onNextWarningTask(Context context);
 
 	void resetData(Context context);
 }

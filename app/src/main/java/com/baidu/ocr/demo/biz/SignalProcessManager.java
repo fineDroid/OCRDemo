@@ -15,7 +15,6 @@ import com.baidu.ocr.demo.task.NotifyContentEvent;
 
 import org.greenrobot.eventbus.EventBus;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -35,13 +34,14 @@ public class SignalProcessManager implements ISignalProcess {
 	@Override
 	public void init(Context context) {
 		context.startService(new Intent(context, BackgroundService.class));
-		AlarmTaskManager.stopOnceTask(context);
+		closeTask(context);
 		mContext = context.getApplicationContext();
 	}
 
 	@Override
-	public void close(Context context) {
-		AlarmTaskManager.stopOnceTask(context);
+	public void closeTask(Context context) {
+		AlarmTaskManager.stopTakePhotoTask(context);
+		AlarmTaskManager.stopWaringTask(context);
 	}
 
 	@Override
@@ -51,25 +51,31 @@ public class SignalProcessManager implements ISignalProcess {
 		SignalDataModel signalDataModel = JSON.parseObject(resultJson, SignalDataModel.class);
 
 		StringBuilder stringBuilder = new StringBuilder();
-		List<SignalDataModel.WordResult> results = signalDataModel.getWords_result();
-		if (results != null && results.size() != 0) {
-			for (SignalDataModel.WordResult wordResult : results) {
-				stringBuilder.append(wordResult.getWords());
-				stringBuilder.append("\n");
-				stringBuilder.append("\n");
+
+		if (signalDataModel != null) {
+			List<SignalDataModel.WordResult> results = signalDataModel.getWords_result();
+			if (results != null && results.size() != 0) {
+				for (SignalDataModel.WordResult wordResult : results) {
+					stringBuilder.append(wordResult.getWords());
+					stringBuilder.append("\n");
+					stringBuilder.append("\n");
+				}
+				EventBus.getDefault().post(new NotifyContentEvent(stringBuilder.toString()));
+			} else {
+				EventBus.getDefault().post(new NotifyContentEvent("啥也没扫描到"));
 			}
-			EventBus.getDefault().post(new NotifyContentEvent(stringBuilder.toString()));
+		} else {
+			EventBus.getDefault().post(new NotifyContentEvent("啥也没扫描到"));
 		}
 
 		//检查报警
 		boolean isError = checkErrorSignal(signalDataModel);
 		if (isError) {
+			closeTask(mContext);
 			resetData(mContext);
+			onNextWarningTask(mContext);
 		} else {
-			//先更新--新增表
-			updateLastAddedSignals(signalDataModel);
-
-			//再更新--原信号表
+			//更新--原信号表
 			updataSourceSingals(signalDataModel);
 		}
 	}
@@ -78,13 +84,17 @@ public class SignalProcessManager implements ISignalProcess {
 	public void onNextPhotoTask(Context context) {
 		//时间间隔秒
 		int timeInterval = SignalDataManager.getTimeInterval(context);
-		AlarmTaskManager.startOnceTask(context, timeInterval * 1000);
+		AlarmTaskManager.startOnceTask(context, timeInterval * 1000, AlarmTaskManager.TASK_TEN_MIN);
+	}
+
+	@Override
+	public void onNextWarningTask(Context context) {
+		AlarmTaskManager.startOnceTask(context, 3 * 1000, AlarmTaskManager.TASK_TWO_SECOND);
 	}
 
 	@Override
 	public void resetData(Context context) {
-		SignalDataManager.saveLastAddedSignals(context, -1);
-		SignalDataManager.saveSourceSignals(context, -1);
+		SignalDataManager.resetSourceSignals(context);
 	}
 
 	private boolean checkErrorSignal(SignalDataModel signalDataModel) {
@@ -109,14 +119,18 @@ public class SignalProcessManager implements ISignalProcess {
 			return warningModel;
 		}
 
-		//没有新增信号，不报警
-		int lastAddWordResults = SignalDataManager.readLastAddedSignals(mContext);
-		if (lastAddWordResults == -1) {
+		//没有新信号，不报警
+		String lastLine = currentWords.get(currentWords.size() - 1).getWords();
+		if (TextUtils.isEmpty(lastLine)) {
 			return warningModel;
 		}
 
-		//当前>=lastAddWordResults 报警
-		if (currentWords.size() >= lastAddWordResults) {
+		String lastResult = SignalDataManager.readSourceSignals(mContext);
+		if (SignalDataManager.DEFAULT_RESULT.equals(lastResult)) {
+			return warningModel;
+		}
+
+		if (!currentWords.get(currentWords.size() - 1).getWords().equals(lastResult)) {
 			warningModel.setNeedWarning(true);
 			warningModel.setContent("三哥,有错误信号啦");
 			return warningModel;
@@ -125,38 +139,24 @@ public class SignalProcessManager implements ISignalProcess {
 	}
 
 
-	private void updateLastAddedSignals(SignalDataModel signalDataModel) {
-		//没有新信号，不存
-		if (signalDataModel == null) {
-			return;
-		}
-		//没有新信号，不存
-		List<SignalDataModel.WordResult> currentWordResults = signalDataModel.getWords_result();
-		if (currentWordResults == null || currentWordResults.size() == 0) {
-			return;
-		}
-
-
-		int lastSourceNums = SignalDataManager.readSourceSignals(mContext);
-
-		if (lastSourceNums > 0 && currentWordResults.size() > lastSourceNums) {
-			//把新增信号存在SP
-			SignalDataManager.saveLastAddedSignals(mContext, currentWordResults.size());
-		}
-		//没有新增，强制更新为初始状态
-
-	}
-
 	private void updataSourceSingals(SignalDataModel signalDataModel) {
 		if (signalDataModel == null) {
+			SignalDataManager.saveSourceSignals(mContext, "");
 			return;
 		}
 		List<SignalDataModel.WordResult> currentWordResults = signalDataModel.getWords_result();
 		if (currentWordResults == null || currentWordResults.size() == 0) {
+			SignalDataManager.saveSourceSignals(mContext, "");
 			return;
 		}
 
-		SignalDataManager.saveSourceSignals(mContext, currentWordResults.size());
+		String lastLine = currentWordResults.get(currentWordResults.size() - 1).getWords();
+		if (TextUtils.isEmpty(lastLine)) {
+			SignalDataManager.saveSourceSignals(mContext, "");
+			return;
+		}
+
+		SignalDataManager.saveSourceSignals(mContext, lastLine);
 	}
 
 

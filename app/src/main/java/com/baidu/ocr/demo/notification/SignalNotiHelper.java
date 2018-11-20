@@ -25,7 +25,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class SignalNotiHelper {
 
-	private static final AtomicInteger mAtomicInteger = new AtomicInteger(0);
+	public static final String ACTION_WARNING = "ACTION_WARNING_LAOER";
 
 	public static void notify(Context context, String content) {
 		try {
@@ -33,6 +33,7 @@ public class SignalNotiHelper {
 			NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
 
 			Intent intent = new Intent(context, MainActivity.class);
+			intent.setAction(ACTION_WARNING);
 			PendingIntent pendingIntent = PendingIntent.getActivity(context, UUID.randomUUID().hashCode(), intent,
 					PendingIntent.FLAG_CANCEL_CURRENT);
 
@@ -49,8 +50,7 @@ public class SignalNotiHelper {
 				builder.setDefaults(NotificationCompat.DEFAULT_ALL);
 			}
 
-			mAtomicInteger.incrementAndGet();
-			compat.notify(mAtomicInteger.intValue(), builder.build());
+			compat.notify(10001, builder.build());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

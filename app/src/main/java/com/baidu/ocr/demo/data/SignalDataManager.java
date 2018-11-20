@@ -24,22 +24,21 @@ public class SignalDataManager {
 	//每次拍照的时间间隔
 	private static final String KEY_SIGN_TIME_INETRVAL = "KEY_SIGN_TIME_INETRVAL";
 
-	public static void saveSourceSignals(Context context, int nums) {
-		PreferencesUtils.putInt(context, KEY_SOURCE_SIGN_DATA, nums);
+	public static final String DEFAULT_RESULT = "kobeloveyou";
+
+	public static void saveSourceSignals(Context context, String data) {
+		PreferencesUtils.putString(context, KEY_SOURCE_SIGN_DATA, data);
 	}
 
 
-	public static int readSourceSignals(Context context) {
-		return PreferencesUtils.getInt(context, KEY_SOURCE_SIGN_DATA, -1);
+	public static String readSourceSignals(Context context) {
+		return PreferencesUtils.getString(context, KEY_SOURCE_SIGN_DATA, DEFAULT_RESULT);
 	}
 
-	public static void saveLastAddedSignals(Context context, int nums) {
-		PreferencesUtils.putInt(context, KEY_ADDED_SIGN_DATA, nums);
+	public static void resetSourceSignals(Context context) {
+		PreferencesUtils.putString(context, KEY_SOURCE_SIGN_DATA, DEFAULT_RESULT);
 	}
 
-	public static int readLastAddedSignals(Context context) {
-		return PreferencesUtils.getInt(context, KEY_ADDED_SIGN_DATA, -1);
-	}
 
 	public static void savaTimeInterval(Context context, String string) {
 

@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.baidu.ocr.demo.biz.ISignalProcess;
 import com.baidu.ocr.demo.biz.SignalProcessManager;
 import com.baidu.ocr.demo.data.SignalDataManager;
+import com.baidu.ocr.demo.notification.SignalNotiHelper;
 import com.baidu.ocr.demo.task.NotifyContentEvent;
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.sdk.OnResultListener;
@@ -53,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
 		mTextView.clearComposingText();
 		mEditText = (EditText) findViewById(R.id.time_interval_et);
 
+		if (getIntent() != null) {
+			if (SignalNotiHelper.ACTION_WARNING.equals(getIntent().getAction())) {
+				iSignalProcess.closeTask(MainActivity.this);
+			}
+		}
+
 		// 通用文字识别--开启信号处理
 		findViewById(R.id.general_basic_button).setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -72,12 +79,22 @@ public class MainActivity extends AppCompatActivity {
 			}
 		});
 
+		//关闭信号处理
+		findViewById(R.id.close_task_button).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				iSignalProcess.closeTask(MainActivity.this);
+			}
+		});
+
+		//重置数据
 		findViewById(R.id.reset_data_button).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				iSignalProcess.resetData(MainActivity.this);
 			}
 		});
+
 
 		mEditText.addTextChangedListener(new TextWatcher() {
 			@Override
@@ -99,14 +116,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 		mEditText.setText(String.valueOf(SignalDataManager.getTimeInterval(this)));
-
-		//关闭信号处理
-		findViewById(R.id.close_task_button).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				iSignalProcess.close(MainActivity.this);
-			}
-		});
 
 		// 请选择您的初始化方式
 		initAccessToken();
@@ -231,4 +240,13 @@ public class MainActivity extends AppCompatActivity {
 		// 释放内存资源
 	}
 
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		if (intent != null) {
+			if (SignalNotiHelper.ACTION_WARNING.equals(intent.getAction())) {
+				iSignalProcess.closeTask(MainActivity.this);
+			}
+		}
+	}
 }
