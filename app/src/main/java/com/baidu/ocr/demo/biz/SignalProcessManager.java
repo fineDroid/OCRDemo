@@ -125,12 +125,16 @@ public class SignalProcessManager implements ISignalProcess {
 			return warningModel;
 		}
 
+		if (!lastLine.contains("日")) {
+			return warningModel;
+		}
+
 		String lastResult = SignalDataManager.readSourceSignals(mContext);
 		if (SignalDataManager.DEFAULT_RESULT.equals(lastResult)) {
 			return warningModel;
 		}
 
-		if (!currentWords.get(currentWords.size() - 1).getWords().equals(lastResult)) {
+		if (!lastLine.substring(lastLine.indexOf("日"), lastLine.length()).equals(lastResult)) {
 			warningModel.setNeedWarning(true);
 			warningModel.setContent("三哥,有错误信号啦");
 			return warningModel;
@@ -156,7 +160,12 @@ public class SignalProcessManager implements ISignalProcess {
 			return;
 		}
 
-		SignalDataManager.saveSourceSignals(mContext, lastLine);
+		if (!lastLine.contains("日")) {
+			SignalDataManager.saveSourceSignals(mContext, "");
+			return;
+		}
+
+		SignalDataManager.saveSourceSignals(mContext, lastLine.substring(lastLine.indexOf("日"), lastLine.length()));
 	}
 
 
