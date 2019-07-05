@@ -8,49 +8,63 @@ import com.baidu.ocr.demo.util.PreferencesUtils;
 import java.util.List;
 
 /**
- * @author zhangchengju
  * 主要功能:
  * 创建日期 2018/9/11
- * 作者:longxian
  */
 public class SignalDataManager {
 
-	//每次拍照的原数据
-	private static final String KEY_SOURCE_SIGN_DATA = "KEY_SOURCE_SIGN_DATA";
+    //第2关是否通过标示
+    private static final String KEY_FIRST_CHECK_POINT = "KEY_FIRST_CHECK_POINT";
 
-	//每次拍照后比上一次拍照新增的数据
-	private static final String KEY_ADDED_SIGN_DATA = "KEY_ADDED_SIGN_DATA";
-
-	//每次拍照的时间间隔
-	private static final String KEY_SIGN_TIME_INETRVAL = "KEY_SIGN_TIME_INETRVAL";
-
-	public static final String DEFAULT_RESULT = "kobeloveyou";
-
-	public static void saveSourceSignals(Context context, String data) {
-		PreferencesUtils.putString(context, KEY_SOURCE_SIGN_DATA, data);
-	}
+    //第2关是否通过标示
+    private static final String KEY_SECOND_CHECK_POINT = "KEY_SECOND_CHECK_POINT";
 
 
-	public static String readSourceSignals(Context context) {
-		return PreferencesUtils.getString(context, KEY_SOURCE_SIGN_DATA, DEFAULT_RESULT);
-	}
+    //每次拍照的时间间隔
+    private static final String KEY_SIGN_TIME_INETRVAL = "KEY_SIGN_TIME_INETRVAL";
 
-	public static void resetSourceSignals(Context context) {
-		PreferencesUtils.putString(context, KEY_SOURCE_SIGN_DATA, DEFAULT_RESULT);
-	}
+    //扫描不到关键词，重拾5次的标示
+    private static final String KEY_SCAN_EMPTY_RETRY_TIMES = "KEY_SCAN_EMPTY_RETRY_TIMES";
+
+    public static void saveFirstCheckPoint(Context context, boolean isOk) {
+        PreferencesUtils.putBoolean(context, KEY_FIRST_CHECK_POINT, isOk);
+    }
+
+    public static boolean getFirstCheckPoint(Context context) {
+        return PreferencesUtils.getBoolean(context, KEY_FIRST_CHECK_POINT, false);
+    }
+
+    public static void saveSecondCheckPoint(Context context, boolean isOk) {
+        PreferencesUtils.putBoolean(context, KEY_SECOND_CHECK_POINT, isOk);
+    }
+
+    public static boolean getSecondCheckPoint(Context context) {
+        return PreferencesUtils.getBoolean(context, KEY_SECOND_CHECK_POINT, false);
+    }
 
 
-	public static void savaTimeInterval(Context context, String string) {
+    public static void savaTimeInterval(Context context, String content) {
 
-		try {
-			int interval = Integer.valueOf(string);
-			PreferencesUtils.putInt(context, KEY_SIGN_TIME_INETRVAL, interval);
-		} catch (Exception e) {
+        try {
+            int interval = Integer.valueOf(content);
+            PreferencesUtils.putInt(context, KEY_SIGN_TIME_INETRVAL, interval);
+        } catch (Exception e) {
+        }
+    }
 
-		}
-	}
+    public static int getTimeInterval(Context context) {
+        return PreferencesUtils.getInt(context, KEY_SIGN_TIME_INETRVAL, 30);
+    }
 
-	public static int getTimeInterval(Context context) {
-		return PreferencesUtils.getInt(context, KEY_SIGN_TIME_INETRVAL, 30);
-	}
+    public static void addScanEmptyRetryTimes(Context context) {
+        PreferencesUtils.putInt(context, KEY_SCAN_EMPTY_RETRY_TIMES, getScanEmptyRetryTimes(context) + 1);
+    }
+
+    public static void resetScanEmptyRetryTimes(Context context) {
+        PreferencesUtils.putInt(context, KEY_SCAN_EMPTY_RETRY_TIMES, 0);
+    }
+
+    public static int getScanEmptyRetryTimes(Context context) {
+        return PreferencesUtils.getInt(context, KEY_SCAN_EMPTY_RETRY_TIMES, 0);
+    }
 }

@@ -72,7 +72,7 @@ public class BackgroundService extends Service {
 
 	@Subscribe(threadMode = ThreadMode.BACKGROUND)
 	public void onCameraConfirm(CameraConfirmEvent event) {
-		SignalProcessManager.getInstance().onNextPhotoTask(BackgroundService.this);
+
 		RecognizeService.recGeneralBasic(getApplicationContext(), FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
 				new RecognizeService.ServiceListener() {
 					@Override
@@ -104,7 +104,7 @@ public class BackgroundService extends Service {
 				String action = intent.getAction();
 				if (ACTION_ALARM_TASK_TIME_OVER.equals(action)) {
 					int task = intent.getIntExtra(EXTRA_ALARM_TASK_TIME_OVER_ID, -1);
-					if (task == AlarmTaskManager.TASK_TEN_MIN) {
+					if (task == AlarmTaskManager.TASK_TAKE_PHOTO) {
 						//
 						Log.d("juju", "拍照定时任务");
 						boolean registered = EventBus.getDefault().isRegistered(BackgroundService.this);
@@ -119,10 +119,10 @@ public class BackgroundService extends Service {
 						newIntent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
 								CameraActivity.CONTENT_TYPE_GENERAL);
 						startActivity(newIntent);
-					} else if (task == AlarmTaskManager.TASK_TWO_SECOND) {
+					} else if (task == AlarmTaskManager.TASK_ERROR_NOTIFY_THREE_SECOND) {
 						Log.d("juju", "提醒定时任务");
 						SignalNotiHelper.notify(mContext, "三哥,有错误信号啦");
-						SignalProcessManager.getInstance().onNextWarningTask(BackgroundService.this);
+						SignalProcessManager.getInstance().onNextErrorWarningTask(BackgroundService.this);
 					}
 				}
 			}

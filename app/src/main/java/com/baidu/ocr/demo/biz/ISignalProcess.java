@@ -10,15 +10,17 @@ import android.content.Context;
  */
 public interface ISignalProcess {
 
-	void init(Context context);
+    void init(Context context);
 
-	void closeTask(Context context);
+    void closeTask(Context context);
 
-	void handleSignal(Context context, String result);
+    void handleSignal(Context context, String result);
 
-	void onNextPhotoTask(Context context);
+    void onNextPhotoTask(Context context);
 
-	void onNextWarningTask(Context context);
+    void onNextErrorWarningTask(Context context);
 
-	void resetData(Context context);
+    void resetData(Context context);
+
+    void notifyError(Context context, String desc);
 }
