@@ -2,7 +2,9 @@ package com.baidu.ocr.demo.biz;
 
 import android.content.Context;
 import android.content.Intent;
+import android.text.TextUtils;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.alibaba.fastjson.JSON;
 import com.baidu.ocr.demo.FileUtil;
@@ -50,7 +52,6 @@ public class SignalProcessManager implements ISignalProcess {
     @Override
     public void handleSignal(Context context, String resultJson) {
         Log.d("juju", "resultJson: " + resultJson);
-        SignalProcessManager.getInstance().onNextPhotoTask(context);
 
         SignalDataModel signalDataModel = JSON.parseObject(resultJson, SignalDataModel.class);
 
@@ -94,12 +95,108 @@ public class SignalProcessManager implements ISignalProcess {
         }
 
         //TODO
-        int currentF1 = 0;
-        int currentF2 = 0;
+        int currentF = 0;
+        int currentY = 0;
 
-        //第一关没过
+        //第1关没过
         if (!SignalDataManager.getFirstCheckPoint(context)) {
+            if (content.contains("异常")) {
+                String temp = content.substring(content.indexOf("异常"));
+                if (temp.contains("未复归：")) {
+                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                    if (!TextUtils.isEmpty(num)) {
+                        currentF = Integer.valueOf(num);
+                    }
+                }
+            }
 
+            if (content.contains("越限")) {
+                String temp = content.substring(content.indexOf("越限"));
+                if (temp.contains("未复归：")) {
+                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                    if (!TextUtils.isEmpty(num)) {
+                        currentY = Integer.valueOf(num);
+                    }
+                }
+            }
+
+            SignalDataManager.saveF1(context, currentF);
+            SignalDataManager.saveY1(context, currentY);
+
+            SignalDataManager.saveFirstCheckPoint(context, true);
+            SignalProcessManager.getInstance().onNextPhotoTask(context);
+            return;
+        }
+
+        //第2关没过
+        if (!SignalDataManager.getSecondCheckPoint(context)) {
+            if (content.contains("异常")) {
+                String temp = content.substring(content.indexOf("异常"));
+                if (temp.contains("未复归：")) {
+                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                    if (!TextUtils.isEmpty(num)) {
+                        currentF = Integer.valueOf(num);
+                    }
+                }
+            }
+
+            if (content.contains("越限")) {
+                String temp = content.substring(content.indexOf("越限"));
+                if (temp.contains("未复归：")) {
+                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                    if (!TextUtils.isEmpty(num)) {
+                        currentY = Integer.valueOf(num);
+                    }
+                }
+            }
+
+
+            if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
+
+                SignalDataManager.saveSecondCheckPoint(context, true);
+                SignalProcessManager.getInstance().onNextPhotoTask(context);
+                return;
+            } else {
+                SignalDataManager.saveF1(context, currentF);
+                SignalDataManager.saveY1(context, currentY);
+                SignalProcessManager.getInstance().onNextPhotoTask(context);
+                return;
+            }
+        }
+
+
+        //到了第3关
+        if (content.contains("异常")) {
+            String temp = content.substring(content.indexOf("异常"));
+            if (temp.contains("未复归：")) {
+                String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                if (!TextUtils.isEmpty(num)) {
+                    currentF = Integer.valueOf(num);
+                }
+            }
+        }
+
+        if (content.contains("越限")) {
+            String temp = content.substring(content.indexOf("越限"));
+            if (temp.contains("未复归：")) {
+                String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
+                if (!TextUtils.isEmpty(num)) {
+                    currentY = Integer.valueOf(num);
+                }
+            }
+        }
+
+
+        if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
+            closeTask(context);
+            notifyError(context, "终于计算出了事故！！！！");
+            //多次提醒
+            onNextErrorWarningTask(context);
+        } else {
+            SignalDataManager.saveF1(context, currentF);
+            SignalDataManager.saveY1(context, currentY);
+            SignalDataManager.saveSecondCheckPoint(context, false);
+            SignalProcessManager.getInstance().onNextPhotoTask(context);
         }
 
     }
@@ -143,6 +240,9 @@ public class SignalProcessManager implements ISignalProcess {
         SignalDataManager.saveFirstCheckPoint(context, false);
         SignalDataManager.saveSecondCheckPoint(context, false);
         SignalDataManager.resetScanEmptyRetryTimes(context);
+
+        SignalDataManager.saveY1(mContext, 0);
+        SignalDataManager.saveF1(mContext, 0);
     }
 
     @Override

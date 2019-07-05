@@ -26,6 +26,12 @@ public class SignalDataManager {
     //扫描不到关键词，重拾5次的标示
     private static final String KEY_SCAN_EMPTY_RETRY_TIMES = "KEY_SCAN_EMPTY_RETRY_TIMES";
 
+
+    //
+    private static final String KEY_F1 = "KEY_F1";
+
+    private static final String KEY_Y1 = "KEY_Y1";
+
     public static void saveFirstCheckPoint(Context context, boolean isOk) {
         PreferencesUtils.putBoolean(context, KEY_FIRST_CHECK_POINT, isOk);
     }
@@ -67,4 +73,24 @@ public class SignalDataManager {
     public static int getScanEmptyRetryTimes(Context context) {
         return PreferencesUtils.getInt(context, KEY_SCAN_EMPTY_RETRY_TIMES, 0);
     }
+
+
+    public static void saveF1(Context context, int value) {
+        PreferencesUtils.putInt(context, KEY_F1, value);
+    }
+
+    public static int getF1(Context context) {
+        return PreferencesUtils.getInt(context, KEY_F1, 0);
+    }
+
+
+    public static void saveY1(Context context, int value) {
+        PreferencesUtils.putInt(context, KEY_Y1, value);
+    }
+
+    public static int getY1(Context context) {
+        return PreferencesUtils.getInt(context, KEY_Y1, 0);
+    }
+
+
 }
