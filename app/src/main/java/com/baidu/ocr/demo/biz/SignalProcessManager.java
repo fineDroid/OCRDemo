@@ -20,6 +20,8 @@ import com.baidu.ocr.ui.camera.CameraActivity;
 import org.greenrobot.eventbus.EventBus;
 
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author zhangchengju
@@ -100,25 +102,8 @@ public class SignalProcessManager implements ISignalProcess {
 
         //第1关没过
         if (!SignalDataManager.getFirstCheckPoint(context)) {
-            if (content.contains("异常")) {
-                String temp = content.substring(content.indexOf("异常"));
-                if (temp.contains("未复归：")) {
-                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                    if (!TextUtils.isEmpty(num)) {
-                        currentF = Integer.valueOf(num);
-                    }
-                }
-            }
-
-            if (content.contains("越限")) {
-                String temp = content.substring(content.indexOf("越限"));
-                if (temp.contains("未复归：")) {
-                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                    if (!TextUtils.isEmpty(num)) {
-                        currentY = Integer.valueOf(num);
-                    }
-                }
-            }
+            currentF = handleFYMatcher(content, "异常");
+            currentY = handleFYMatcher(content, "越限");
 
             SignalDataManager.saveF1(context, currentF);
             SignalDataManager.saveY1(context, currentY);
@@ -130,29 +115,10 @@ public class SignalProcessManager implements ISignalProcess {
 
         //第2关没过
         if (!SignalDataManager.getSecondCheckPoint(context)) {
-            if (content.contains("异常")) {
-                String temp = content.substring(content.indexOf("异常"));
-                if (temp.contains("未复归：")) {
-                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                    if (!TextUtils.isEmpty(num)) {
-                        currentF = Integer.valueOf(num);
-                    }
-                }
-            }
-
-            if (content.contains("越限")) {
-                String temp = content.substring(content.indexOf("越限"));
-                if (temp.contains("未复归：")) {
-                    String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                    if (!TextUtils.isEmpty(num)) {
-                        currentY = Integer.valueOf(num);
-                    }
-                }
-            }
-
+            currentF = handleFYMatcher(content, "异常");
+            currentY = handleFYMatcher(content, "越限");
 
             if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
-
                 SignalDataManager.saveSecondCheckPoint(context, true);
                 SignalProcessManager.getInstance().onNextPhotoTask(context);
                 return;
@@ -166,25 +132,8 @@ public class SignalProcessManager implements ISignalProcess {
 
 
         //到了第3关
-        if (content.contains("异常")) {
-            String temp = content.substring(content.indexOf("异常"));
-            if (temp.contains("未复归：")) {
-                String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                if (!TextUtils.isEmpty(num)) {
-                    currentF = Integer.valueOf(num);
-                }
-            }
-        }
-
-        if (content.contains("越限")) {
-            String temp = content.substring(content.indexOf("越限"));
-            if (temp.contains("未复归：")) {
-                String num = temp.substring(temp.indexOf("未复归：") + 4, temp.indexOf("未复归：") + 6);
-                if (!TextUtils.isEmpty(num)) {
-                    currentY = Integer.valueOf(num);
-                }
-            }
-        }
+        currentF = handleFYMatcher(content, "异常");
+        currentY = handleFYMatcher(content, "越限");
 
 
         if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
@@ -199,6 +148,32 @@ public class SignalProcessManager implements ISignalProcess {
             SignalProcessManager.getInstance().onNextPhotoTask(context);
         }
 
+    }
+
+
+    /**
+     * F：异常
+     * Y：越限
+     */
+    private int handleFYMatcher(String content, String keyWord) {
+        String source = content + " ";
+        if (source.contains(keyWord)) {
+            String temp = source.substring(source.indexOf(keyWord));
+            if (temp.contains("未复归")) {
+                String reg = "[^\\d]+(\\d+)[^\\d]+";    //提取字符串中的数字
+                Pattern pattern = Pattern.compile(reg);
+                Matcher matcher = pattern.matcher(temp);
+                if (matcher.find()) {
+                    try {
+                        return Integer.parseInt(matcher.group(1));
+                    } catch (Exception e) {
+
+                    }
+                }
+            }
+        }
+
+        return 0;
     }
 
     private void handleScanEmpty(Context context) {
