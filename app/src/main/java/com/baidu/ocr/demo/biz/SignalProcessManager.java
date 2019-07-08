@@ -70,7 +70,7 @@ public class SignalProcessManager implements ISignalProcess {
                     handleScanValid(context, scanResultStringBuilder.toString());
 
                 } else {
-                    EventBus.getDefault().post(new NotifyContentEvent("啥也没扫描到"));
+                    EventBus.getDefault().post(new NotifyContentEvent("没扫描到事故、异常、变位、越限、告知、故障"));
                     handleScanEmpty(context);
                 }
             } else {
@@ -214,9 +214,9 @@ public class SignalProcessManager implements ISignalProcess {
     }
 
     private boolean checkScanResult(String content) {
-        if (content.contains("事故") || content.contains("事故")
-                || content.contains("事故") || content.contains("事故")
-                || content.contains("事故") || content.contains("事故")) {
+        if (content.contains("事故") || content.contains("异常")
+                || content.contains("变位") || content.contains("越限")
+                || content.contains("告知") || content.contains("故障")) {
             return true;
 
         }
