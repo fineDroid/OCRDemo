@@ -37,9 +37,9 @@ public class SignalProcessManager implements ISignalProcess {
 
     @Override
     public void init(Context context) {
+        mContext = context.getApplicationContext();
         context.startService(new Intent(context, BackgroundService.class));
         closeTask(context);
-        mContext = context.getApplicationContext();
     }
 
     @Override
@@ -241,8 +241,8 @@ public class SignalProcessManager implements ISignalProcess {
         SignalDataManager.saveSecondCheckPoint(context, false);
         SignalDataManager.resetScanEmptyRetryTimes(context);
 
-        SignalDataManager.saveY1(mContext, 0);
-        SignalDataManager.saveF1(mContext, 0);
+        SignalDataManager.saveY1(context, 0);
+        SignalDataManager.saveF1(context, 0);
     }
 
     @Override
