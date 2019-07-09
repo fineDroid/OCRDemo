@@ -2,20 +2,15 @@ package com.baidu.ocr.demo.biz;
 
 import android.content.Context;
 import android.content.Intent;
-import android.text.TextUtils;
 import android.util.Log;
-import android.widget.TextView;
 
 import com.alibaba.fastjson.JSON;
-import com.baidu.ocr.demo.FileUtil;
-import com.baidu.ocr.demo.MainActivity;
 import com.baidu.ocr.demo.data.SignalDataManager;
 import com.baidu.ocr.demo.data.SignalDataModel;
-import com.baidu.ocr.demo.data.WarningModel;
+import com.baidu.ocr.demo.data.WarningFYModel;
 import com.baidu.ocr.demo.notification.SignalNotiHelper;
 import com.baidu.ocr.demo.task.AlarmTaskManager;
 import com.baidu.ocr.demo.task.NotifyContentEvent;
-import com.baidu.ocr.ui.camera.CameraActivity;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -30,7 +25,6 @@ import java.util.regex.Pattern;
  * 作者:longxian
  */
 public class SignalProcessManager implements ISignalProcess {
-    private static final String TAG = SignalProcessManager.class.getSimpleName();
     private Context mContext;
 
     public static SignalProcessManager getInstance() {
@@ -91,12 +85,12 @@ public class SignalProcessManager implements ISignalProcess {
         if (content.contains("事故")) {
             closeTask(context);
             notifyError(context, "拍到了事故！！！！");
+            SignalDataManager.saveNotifyContent(context, "拍到了事故！！！！");
             //多次提醒
             onNextErrorWarningTask(context);
             return;
         }
 
-        //TODO
         int currentF = 0;
         int currentY = 0;
 
@@ -104,9 +98,10 @@ public class SignalProcessManager implements ISignalProcess {
         if (!SignalDataManager.getFirstCheckPoint(context)) {
             currentF = handleFYMatcher(content, "异常");
             currentY = handleFYMatcher(content, "越限");
-
             SignalDataManager.saveF1(context, currentF);
             SignalDataManager.saveY1(context, currentY);
+
+            EventBus.getDefault().post(new WarningFYModel(currentF, currentY));
 
             SignalDataManager.saveFirstCheckPoint(context, true);
             SignalProcessManager.getInstance().onNextPhotoTask(context);
@@ -117,6 +112,7 @@ public class SignalProcessManager implements ISignalProcess {
         if (!SignalDataManager.getSecondCheckPoint(context)) {
             currentF = handleFYMatcher(content, "异常");
             currentY = handleFYMatcher(content, "越限");
+            EventBus.getDefault().post(new WarningFYModel(currentF, currentY));
 
             if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
                 SignalDataManager.saveSecondCheckPoint(context, true);
@@ -134,11 +130,12 @@ public class SignalProcessManager implements ISignalProcess {
         //到了第3关
         currentF = handleFYMatcher(content, "异常");
         currentY = handleFYMatcher(content, "越限");
-
+        EventBus.getDefault().post(new WarningFYModel(currentF, currentY));
 
         if (currentF > SignalDataManager.getF1(mContext) || currentY > SignalDataManager.getY1(context)) {
             closeTask(context);
             notifyError(context, "终于计算出了事故！！！！");
+            SignalDataManager.saveNotifyContent(context, "终于计算出了事故！！！！");
             //多次提醒
             onNextErrorWarningTask(context);
         } else {
@@ -160,6 +157,7 @@ public class SignalProcessManager implements ISignalProcess {
         if (source.contains(keyWord)) {
             String temp = source.substring(source.indexOf(keyWord));
             if (temp.contains("未复归")) {
+                temp = temp.substring(temp.indexOf("未复归"));
                 String reg = "[^\\d]+(\\d+)[^\\d]+";    //提取字符串中的数字
                 Pattern pattern = Pattern.compile(reg);
                 Matcher matcher = pattern.matcher(temp);
@@ -218,6 +216,8 @@ public class SignalProcessManager implements ISignalProcess {
 
         SignalDataManager.saveY1(context, 0);
         SignalDataManager.saveF1(context, 0);
+
+        SignalDataManager.saveNotifyContent(context, "重复提醒");
     }
 
     @Override

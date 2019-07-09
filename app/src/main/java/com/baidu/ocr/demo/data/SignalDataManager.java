@@ -2,10 +2,7 @@ package com.baidu.ocr.demo.data;
 
 import android.content.Context;
 
-import com.alibaba.fastjson.JSON;
 import com.baidu.ocr.demo.util.PreferencesUtils;
-
-import java.util.List;
 
 /**
  * 主要功能:
@@ -27,10 +24,13 @@ public class SignalDataManager {
     private static final String KEY_SCAN_EMPTY_RETRY_TIMES = "KEY_SCAN_EMPTY_RETRY_TIMES";
 
 
-    //
+    //FY
     private static final String KEY_F1 = "KEY_F1";
 
     private static final String KEY_Y1 = "KEY_Y1";
+
+    private static final String KEY_NOTIFY_CONTENT = "KEY_NOTIFY_CONTENT";
+
 
     public static void saveFirstCheckPoint(Context context, boolean isOk) {
         PreferencesUtils.putBoolean(context, KEY_FIRST_CHECK_POINT, isOk);
@@ -90,6 +90,15 @@ public class SignalDataManager {
 
     public static int getY1(Context context) {
         return PreferencesUtils.getInt(context, KEY_Y1, 0);
+    }
+
+
+    public static void saveNotifyContent(Context context, String value) {
+        PreferencesUtils.putString(context, KEY_NOTIFY_CONTENT, value);
+    }
+
+    public static String getNotifyContent(Context context) {
+        return PreferencesUtils.getString(context, KEY_NOTIFY_CONTENT, "重复提醒");
     }
 
 

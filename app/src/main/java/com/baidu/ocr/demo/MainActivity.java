@@ -13,14 +13,17 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.baidu.ocr.demo.biz.SignalProcessManager;
 import com.baidu.ocr.demo.data.SignalDataManager;
+import com.baidu.ocr.demo.data.WarningFYModel;
 import com.baidu.ocr.demo.notification.SignalNotiHelper;
 import com.baidu.ocr.demo.task.NotifyContentEvent;
+import com.baidu.ocr.demo.util.Util;
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.sdk.OnResultListener;
 import com.baidu.ocr.sdk.exception.OCRError;
@@ -37,8 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
     private AlertDialog.Builder alertDialog;
 
+    private Button mBtBegin;
     private TextView mTextView;
     private EditText mEditText;
+    private TextView mTvCurrentF, mTvCurrentY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,14 +54,20 @@ public class MainActivity extends AppCompatActivity {
         mTextView.clearComposingText();
         mEditText = (EditText) findViewById(R.id.time_interval_et);
 
+        mBtBegin = (Button) findViewById(R.id.general_basic_button);
+        mTvCurrentF = (TextView) findViewById(R.id.tv_currentF);
+        mTvCurrentY = (TextView) findViewById(R.id.tv_currentY);
+
         if (getIntent() != null) {
             if (SignalNotiHelper.ACTION_WARNING.equals(getIntent().getAction())) {
                 SignalProcessManager.getInstance().closeTask(MainActivity.this);
             }
         }
 
+        mBtBegin.setText("开启信号处理" + Util.packageName(MainActivity.this.getApplicationContext()));
+
         // 通用文字识别--开启信号处理
-        findViewById(R.id.general_basic_button).setOnClickListener(new View.OnClickListener() {
+        mBtBegin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (!checkTokenStatus()) {
@@ -138,6 +149,14 @@ public class MainActivity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNotifyContent(NotifyContentEvent contentEvent) {
         mTextView.setText(contentEvent.getContent());
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onFYContent(WarningFYModel warningFYModel) {
+        if (warningFYModel != null) {
+            mTvCurrentF.setText("本次F: " + warningFYModel.getF());
+            mTvCurrentY.setText("本次Y: " + warningFYModel.getY());
+        }
     }
 
     @Override
