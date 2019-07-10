@@ -83,7 +83,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="本次F" />
+                android:text="本次Y" />
         </LinearLayout>
 
 
